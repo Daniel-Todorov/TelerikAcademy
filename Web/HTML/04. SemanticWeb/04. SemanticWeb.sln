@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68B26715-05F5-49AB-B5AA-DEA028CE9B7B}"
+	ProjectSection(SolutionItems) = preProject
+		01. Problem.html = 01. Problem.html
+		02. Problem.html = 02. Problem.html
+		03. Problem.html = 03. Problem.html
+		modernizr.custom.03634.js = modernizr.custom.03634.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

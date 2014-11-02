@@ -1,0 +1,78 @@
+﻿table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: buttonface;
+    text-align: left;
+}
+
+tfoot {
+    background-color: buttonface;
+}
+
+input {
+    vertical-align: middle;
+}
+
+span.rightAlign {
+    float: right;
+    margin: 4px;
+    margin-right: 12px;
+}
+
+th, td {
+    padding: 4px;
+}
+
+input[type=button] {
+    border-style: none;
+}
+
+#productIDtextBox {
+    width: 30px;
+}
+
+#productName {
+    width: 300px;
+}
+
+#unitPriceTextBox {
+    width: 100px;
+}
+
+#quantityPerUnit {
+    width: 170px;
+}
+
+#quantityPerUnitTextBox {
+    width: 110px;
+}
+
+#unitPrice {
+    width: 180px;
+}
+
+#unitInStock {
+    width: 190px;
+}
+
+#unitInStockTextBox {
+    width: 100px;
+}
+
+#styled {
+    display: inline;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    padding: 3px;
+}
+
+#pageSizeLabel {
+    margin-left: 20px;
+}
+
+#pageSize {
+    width: 55px;
+}

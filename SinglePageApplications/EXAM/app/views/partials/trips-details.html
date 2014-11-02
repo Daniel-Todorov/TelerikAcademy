@@ -1,0 +1,10 @@
+<div ng-controller="TripDetailsController">
+	<h2>{{trip.driverName}} - {{trip.departureDate}}</h2>
+	<p>From: {{trip.from}}</p>
+	<p>To: {{trip.to}}</p>
+	<p>Number of free seats: {{trip.numberOfFreeSeats}}</p>
+	<button ng-show="trip.numberOfFreeSeats> 0" ng-click="joinTrip()">Join</button>
+	<ul>Passengers:
+		<li ng-repeat="passenger in trip.passengers">{{passenger}}</li>
+	</ul>
+</div>

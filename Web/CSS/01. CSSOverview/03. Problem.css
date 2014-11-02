@@ -1,0 +1,55 @@
+﻿body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+body > header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+li:last-child a {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    font-size: 18px;
+}
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a {
+        font-size: inherit;
+        color: inherit;
+        font-weight: inherit;
+    }
+
+body > footer {
+    text-align: center;
+}
+
+.current {
+    background-color: #E6EDEB;
+}

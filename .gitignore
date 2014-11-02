@@ -1,0 +1,7 @@
+.idea
+bin
+debug
+*.zip
+*.rar
+*.gz
+node_modules

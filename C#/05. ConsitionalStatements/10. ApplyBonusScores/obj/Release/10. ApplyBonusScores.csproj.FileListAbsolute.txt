@@ -1,0 +1,5 @@
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\10. ApplyBonusScores\bin\Release\_10.ApplyBonusScores.exe.config
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\10. ApplyBonusScores\bin\Release\_10.ApplyBonusScores.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\10. ApplyBonusScores\bin\Release\_10.ApplyBonusScores.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\10. ApplyBonusScores\obj\Release\_10.ApplyBonusScores.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\10. ApplyBonusScores\obj\Release\_10.ApplyBonusScores.pdb

@@ -1,0 +1,33 @@
+extends ../shared/layout
+block main-content
+    br
+    form(method="post")
+        label(for="title") Title
+        input(id="title" type="text" name="title" placeholder="Title" required)
+        br
+        label(for="category") Category
+        select(id="category" type="text" name="category" required)
+            each category in categories
+                option(selected value=''+category)= category
+        br
+        label(for="description") Description
+        textarea(id="description" type="text" name="description" placeholder="Description" required)
+        br
+        label(for="location") Location (Optional. Format: "(123,123)")
+        input(id="location" type="text" name="location" placeholder="Location")
+        br
+        label(for="initiative") Initiative
+        select(id="initiative" name="initiative")
+            each initiative in initiatives
+                option(value=''+initiative)= initiative
+        br
+        label(for="season") Season
+        select(id="season" name="season")
+            each season in seasons
+                option(value=''+season)= season
+        br
+        label(for="date") Date of Event
+        input(id="date" type="datetime-local" name="date" placeholder="Description" required)
+        br
+
+        input(type="submit" value="Submit")

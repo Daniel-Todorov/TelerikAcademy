@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. ComboBox", "01. ComboBox", "{D10CB1A8-43A0-46E9-8C79-A275B6145003}"
+	ProjectSection(SolutionItems) = preProject
+		01. Combobox.html = 01. Combobox.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{080CCDD3-8B83-4B17-B6EE-27D1E79E908E}"
+	ProjectSection(SolutionItems) = preProject
+		joreto.jpg = joreto.jpg
+		minkov.jpg = minkov.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{D3566CD4-C3F5-491F-B21D-9D1283ECC4FA}"
+	ProjectSection(SolutionItems) = preProject
+		mainScript.js = mainScript.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{E1078614-7F76-4DA0-9693-583F9E59DF35}"
+	ProjectSection(SolutionItems) = preProject
+		handlebars.js = handlebars.js
+		jquery.js = jquery.js
+		require.js = require.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{557BFFE8-BAF5-4564-BA86-409D08D55EBF}"
+	ProjectSection(SolutionItems) = preProject
+		comboBox.js = comboBox.js
+		controls.js = controls.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{080CCDD3-8B83-4B17-B6EE-27D1E79E908E} = {D10CB1A8-43A0-46E9-8C79-A275B6145003}
+		{D3566CD4-C3F5-491F-B21D-9D1283ECC4FA} = {D10CB1A8-43A0-46E9-8C79-A275B6145003}
+		{E1078614-7F76-4DA0-9693-583F9E59DF35} = {D3566CD4-C3F5-491F-B21D-9D1283ECC4FA}
+		{557BFFE8-BAF5-4564-BA86-409D08D55EBF} = {D3566CD4-C3F5-491F-B21D-9D1283ECC4FA}
+	EndGlobalSection
+EndGlobal

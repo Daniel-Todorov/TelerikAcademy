@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-01. Problem", "01-01. Problem", "{5BE883F9-4F7F-4187-AC6D-B4E40B43B111}"
+	ProjectSection(SolutionItems) = preProject
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task1\imgs\arrow.png = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task1\imgs\arrow.png
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task1\task1.css = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task1\task1.css
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task1\task1.html = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task1\task1.html
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task1\task1.less = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task1\task1.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-02. Problem", "01-02. Problem", "{6C04EBF6-ABD9-45D4-9A00-D27D813ACEF7}"
+	ProjectSection(SolutionItems) = preProject
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\jquery-1.9.1.js = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\jquery-1.9.1.js
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\tab-strip.js = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\tab-strip.js
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\task2.css = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\task2.css
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\task2.html = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\task2.html
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\task2.less = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task2\task2.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-03. Problem", "01-03. Problem", "{B83CE8DF-A0D1-4301-9471-2A97D6877717}"
+	ProjectSection(SolutionItems) = preProject
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task3\jquery-1.9.1.js = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task3\jquery-1.9.1.js
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task3\task3.css = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task3\task3.css
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task3\task3.html = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task3\task3.html
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task3\task3.less = CSS-Styling-Exams-Solutions-Feb-2013-Variant-1\Problem\task3\task3.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-01. Problem", "02-01. Problem", "{B85C411A-66DF-4031-A607-4831DE46EFCD}"
+	ProjectSection(SolutionItems) = preProject
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task1\jquery-1.9.1.js = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task1\jquery-1.9.1.js
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task1\task1.css = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task1\task1.css
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task1\task1.html = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task1\task1.html
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task1\task1.less = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task1\task1.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-02. Problem", "02-02. Problem", "{DF0ED3F1-012A-4099-B21E-A5C70647BAEC}"
+	ProjectSection(SolutionItems) = preProject
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\imgs\messages.png = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\imgs\messages.png
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\imgs\notifications.png = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\imgs\notifications.png
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\imgs\people.png = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\imgs\people.png
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\task2.css = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\task2.css
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\task2.html = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\task2.html
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\task2.less = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task2\task2.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-03. Problem", "02-03. Problem", "{80D94700-ABE5-4A63-A800-55CE91D49149}"
+	ProjectSection(SolutionItems) = preProject
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task3\task3.css = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task3\task3.css
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task3\task3.html = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task3\task3.html
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task3\task3.less = CSS-Styling-Exams-Solutions-Feb-2013-Variant-2\Problem\task3\task3.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-01. Problem", "03-01. Problem", "{5C65CFD8-F228-4389-BECC-74F597125D7A}"
+	ProjectSection(SolutionItems) = preProject
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\imgs\male.png = CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\imgs\male.png
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\imgs\me.png = CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\imgs\me.png
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\task1.css = CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\task1.css
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\task1.html = CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\task1.html
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\task1.less = CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task1\task1.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-02. Problem", "03-02. Problem", "{8E956486-D13D-49A3-AF84-0258D83CA48D}"
+	ProjectSection(SolutionItems) = preProject
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task2\task2.css = CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task2\task2.css
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task2\task2.html = CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task2\task2.html
+		CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task2\task2.less = CSS-Styling-Exams-Solutions-Feb-2013-Variant-3\Problem\task2\task2.less
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

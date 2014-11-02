@@ -1,0 +1,29 @@
+<div ng-controller="DriverDetailsController">
+	<h2>{{driver.name}}</h2>
+	<hr>
+	<span>Upcoming trips: {{driver.numberOfUpcomingTrips}}</span>
+	<hr>
+	<span>Total trips: {{driver.numberOfTotalTrips}}</span>
+	<hr>
+	<select id="from" ng-model="sort" ng-options="option for option in options" ng-change="filterDrivers(sort)">
+	</select>
+	<hr>
+	<table>
+		<thead>
+		<tr>
+			<th>Driver</th>
+			<th>From</th>
+			<th>To</th>
+			<th>Departure time</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr ng-repeat="trip in driver.trips">
+			<td><a href="#/trips/{{trip.id}}">{{trip.driverName}}</a></td>
+			<td>{{trip.from}}</td>
+			<td>{{trip.to}}</td>
+			<td>{{trip.departureDate | transformDate}}</td>
+		</tr>
+		</tbody>
+	</table>
+</div>

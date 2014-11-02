@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <label for="firstNumber">First number: </label>
+            @Html.TextBox("firstNumber")
+            <br />
+            <label for="secondNumber">Second number: </label>
+            @Html.TextBox("secondNumber")
+            <br />
+            <input type="submit" name="sumButton" value="Sum" />
+            <hr />
+            <span>Sum: </span><span id="totalSum">@ViewBag.TotalSum</span>
+        }
+    </div>
+</body>
+</html>

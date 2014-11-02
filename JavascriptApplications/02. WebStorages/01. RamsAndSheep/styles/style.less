@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+
+body, h1, form, label, input, table, td, tr, footer, header, section {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: greenyellow;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* -------------------------
+			HEADER
+-------------------------- */
+
+header {
+  h1 {
+	margin: 20px 20px 40px;
+	font-size: 3rem;
+	text-align: center;
+	color: yellowgreen;
+
+	.game-name {
+	  text-shadow: 0 0 4px red;
+	  color: green;
+	}
+  }
+}
+
+section {
+  text-align: center;
+
+  form {
+	display: inline-block;
+
+	label {
+	  display: block;
+	  padding: 10px 10px;
+	  font-size: 2rem;
+	  font-weight: bold;
+	  color: orange;
+	}
+
+	input{
+	  display: block;
+	  margin: 0 auto 20px;
+	  padding: 5px 10px;
+	  background-color: palegreen;
+	  border-color: darkorange;
+	  border-radius: 20px;
+	  outline: none;
+	  text-align: center;
+	  font-size: 1.2rem;
+	  color: darkorange;
+
+	  &:focus{
+		background-color: yellow;
+	  }
+	}
+
+	button{
+	  padding: 15px 30px;
+	  margin: 0 0 40px;
+	  border: none;
+	  border-radius: 5px;
+	  outline: none;
+	  background-color: darkgreen;
+	  text-transform: uppercase;
+	  font-weight: bold;
+	  font-size: 1.5rem;
+	  color: yellowgreen;
+
+	  &:active{
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		transform: scale(0.8);
+	  }
+	}
+  }
+
+  #board-container{
+
+	table{
+	  display: inline-table;
+	  margin: 0 0 50px;
+	  border: 2px solid darkred;
+	  background-color: darkorange;
+	  color: darkred;
+
+	  th{
+		padding: 10px 20px;
+		font-size: 2rem;
+	  }
+
+	  td{
+		padding: 5px;
+
+		&:nth-of-type(2){
+		  text-align: left;
+		}
+
+		&:nth-of-type(3){
+		  text-align: left;
+		}
+
+		img{
+		  display: inline-block;
+		  width: 40px;
+		  height: 30px;
+		  border: none;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+
+		  &.ram-image{
+			background-image: url('../images/ram.png');
+		  }
+
+		  &.sheep-image{
+			background-image: url('../images/sheep.png');
+		  }
+
+		  &.hyena-image{
+			background-image: url('../images/hyena.png');
+		  }
+		}
+	  }
+	}
+
+	table.tries-board{
+
+	}
+  }
+}
+
+footer{
+  padding: 5px 20px;
+  text-align: right;
+  font-size: 0.8rem;
+  color: lightgray;
+}

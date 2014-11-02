@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>01. Problem</title>
+    <link href="01. DynamicTable.css" rel="stylesheet" />
+    <script src="handlebars.js"></script>
+    <script src="01. DynamicTable.js"></script>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <script id="table-template" type="text/x-handlebars-template">
+        <table>
+            <thead>
+                <tr>
+                    <td>№</td>
+                    <td>Title</td>
+                    <td>Date #1</td>
+                    <td>Date #2</td>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each courses}}
+                <tr>
+                    <td>{{@index}}</td>
+                    <td>{{title}}</td>
+                    <td>{{date1}}</td>
+                    <td>{{date2}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </script>
+</body>
+</html>

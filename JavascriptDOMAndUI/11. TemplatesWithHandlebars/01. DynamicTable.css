@@ -1,0 +1,23 @@
+﻿table, td{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+}
+
+thead{
+    color: white;
+    background-color: darkgray;
+    text-align: center;
+}
+
+tbody tr:nth-child(2n){
+    background-color: lightslategray;
+}
+
+tbody tr td:first-of-type{
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ViewEngines",
+  "version": "0.0.0",
+  "description": "Sample jade app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "D3",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.9.5",
+    "jade": "^1.7.0"
+  }
+}

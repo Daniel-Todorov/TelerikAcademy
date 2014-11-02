@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 1, part 2</title>
+    <style type="text/css">
+        .centeredText {
+            text-align: center;
+        }
+
+        .rightAlign {
+            text-align: right;
+        }
+
+        .rightBottomAlign {
+            vertical-align: bottom;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <!--I was surpriced to find out that styling in colgroup is almost impossible.
+        Check this link for more info: http://ln.hixie.ch/?count=1&start=1070385285-->
+        <colgroup>
+            <col span="5" style="width:30px" />
+        </colgroup>
+        <tbody>
+            <tr>
+                <td colspan="3">Title goes here</td>
+                <td class="centeredText">A</td>
+                <td class="rightAlign">B</td>
+            </tr>
+            <tr>
+                <td rowspan="3">C</td>
+                <td class="centeredText">D</td>
+                <td class="centeredText">E</td>
+                <td class="centeredText">F</td>
+                <td class="rightAlign">G</td>
+            </tr>
+            <tr>
+                <td class="centeredText">H</td>
+                <td colspan="2" class="centeredText">I</td>
+                <td class="rightBottomAlign" rowspan="2">J</td>
+            </tr>
+            <tr>
+                <td class="centeredText">K</td>
+                <td class="centeredText">L</td>
+                <td class="centeredText">M</td>
+            </tr>
+            <tr>
+                <td class="rightAlign">N</td>
+                <td class="centeredText" colspan="4">O</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

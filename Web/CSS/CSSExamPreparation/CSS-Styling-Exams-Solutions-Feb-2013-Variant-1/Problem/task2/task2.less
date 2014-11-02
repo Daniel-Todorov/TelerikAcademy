@@ -1,0 +1,136 @@
+@resolution: 960px;
+@font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+@font-size: 16px;
+
+.gradientBackground (@topColor, @topStart, @botomColor, @botomStart) {
+    background: @topColor; /* Old browsers */
+    background: -moz-linear-gradient(top, @topColor @topStart, @botomColor @botomStart); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@topStart,@topColor), color-stop(@botomStart,@botomColor)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* IE10+ */
+    background: linear-gradient(to bottom, @topColor @topStart,@botomColor @botomStart); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@topColor', endColorstr='@botomColor',GradientType=0 ); /* IE6-9 */
+}
+
+body, div, ul, li, table, thead, tbody, th, td, tr, a {
+    margin: 0;
+    padding: 0;
+}
+
+    div#wrapper {
+        width: @resolution;
+        font-family: @font-family;
+        font-size: @font-size;
+    }
+
+    ul.tab-strip {
+        border: 1px solid black;
+        margin: 15px;
+        width: 340px;
+        height: 230px;
+        border-radius: 5px;
+
+        > li {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            > li > a {
+                display: block;
+                width: 83px;
+                height: 31px;
+                padding-top: 5px;
+                .gradientBackground(#ededed, 0, #ababab, 100%);
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
+                border-radius: 5px;
+                text-decoration: none;
+                color: black;
+                text-align: center;
+                font-size: 1.4em;
+
+                &:hover {
+                    .gradientBackground(#eeeeee, 0, #eeeeee, 100%);
+                }
+            }
+
+            > li:last-of-type a {
+                border-right: 0;
+                border-radius: 5px;
+            }
+
+            > li.current > a {
+                width: 87px;
+                border: 0 solid black;
+                border-right: 1px solid black;
+                border-radius: 0;
+                border-top-left-radius: 5px;
+                .gradientBackground(white, 0, white, 100%);
+                font-weight: bold;
+            }
+    }
+
+    div.tab-content {
+        display: none;
+    }
+
+    li.current {
+        position: relative;
+
+        div.tab-content {
+            display: block;
+
+            > ul {
+                position: relative;
+                left: 20px;
+                padding-top: 14px;
+                list-style: disc;
+
+                ul {
+                    list-style: lower-latin;
+                    position: relative;
+                    left: 25px;
+                }
+            }
+        }
+    }
+
+th, td {
+    width: 110px;
+    height: 29px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 304px;
+    height: 150px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    left: -64px;
+    top: 50px;
+
+    th {
+        .gradientBackground(#ababab, 0, #eeeeee, 100%);
+        text-align: center;
+    }
+
+    td {
+        padding-left: 5px;
+        background-color: #eeeeee;
+    }
+}
+
+ul.tab-strip > li:nth-child(3) > div.tab-content {
+    position: relative;
+    left: -148px;
+    top: 14px;
+}
+
+ul.tab-strip > li:nth-child(4) > div.tab-content {
+    position: relative;
+    left: -232px;
+    top: 14px;
+}

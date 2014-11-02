@@ -1,0 +1,112 @@
+@resolution: 960px;
+@font-family-general: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+@font-size: 18px;
+
+.gradientBackground (@topColor, @topStart, @botomColor, @botomStart) {
+    background: @topColor; /* Old browsers */
+    background: -moz-linear-gradient(top, @topColor @topStart, @botomColor @botomStart); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@topStart,@topColor), color-stop(@botomStart,@botomColor)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* IE10+ */
+    background: linear-gradient(to bottom, @topColor @topStart,@botomColor @botomStart); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@topColor', endColorstr='@botomColor',GradientType=0 ); /* IE6-9 */
+}
+
+body, div, ul, li, a, table, thead, tbody, th, td, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: @font-family-general;
+    font-size: @font-size;
+}
+
+div#wrapper {
+    width: @resolution;
+}
+
+ul.accordion {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 400px;
+    list-style: none;
+
+    >li {
+        border: 1px solid black;
+    }
+
+        > li > div.accordion-content {
+            display: none;
+            padding: 5px 15px;
+            color: #444444;
+            background-color: #aaaaaa;
+        }
+
+        > li.current > div.accordion-content {
+            display: block;
+        }
+}
+
+a.accordion-btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #444444;
+    font-size: 1.3em;
+    font-weight: bold;
+    .gradientBackground(#eeeeee, 25%, #aaaaaa, 75%);
+
+    &:hover {
+        .gradientBackground(#aaaaaa, 0, #aaaaaa, 100%);
+    }
+}
+
+h1 {
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    color: #5e5e5e;
+    font-size: 1.6em;
+}
+
+p {
+    text-align: justify;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 72px;
+    height: 32px;
+}
+
+td {
+    text-align: center;
+    color: white;
+}
+
+tr:nth-of-type(2n+1) {
+    .gradientBackground(#cbcbcb, 0, #898989, 100%);
+}
+
+tr:nth-of-type(2n+2) {
+    .gradientBackground(#898989, 0, #cbcbcb, 100%);
+}
+
+table {
+    margin: 15px 6px;
+}
+
+th {
+    padding-left: 5px;
+    .gradientBackground(#ececec, 0, #898989, 100%);
+}
+
+th:first-of-type {
+    border-top-left-radius: 15px;
+}

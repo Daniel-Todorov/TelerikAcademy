@@ -1,0 +1,7 @@
+Relationships:
+
+1. Each toy as a manufacturer and one manufacturer can produce many toys => one to many relationship implemented by using a foreign key from Toys table pointing to Manufacturers table and using the Id of the manufacturer.
+
+2. Each toy has an age range and an age range can belong to many toys => one to many relationship implemented by using a foreign key from Toys table pointing to AgeRanges table and using the Id of the age range.
+
+3. Each toy can have several categories and each category may include several toys => many to many relationship implemented by using a third table - ToysCategories. To insure the integrity, the third table has two foreign keys pointing to the corresponding Toys and Categories table and using their Ids.

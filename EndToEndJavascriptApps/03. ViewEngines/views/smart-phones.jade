@@ -1,0 +1,16 @@
+extends ./layout.jade
+block content
+    table
+        thead
+            tr
+                th= 'Model'
+                th= 'Display'
+                th= 'Color'
+                th= 'Price'
+        tbody
+            each phone in site.smartPhones
+                tr
+                    td= phone.model
+                    td= phone.display
+                    td= phone.color
+                    td= phone.price

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Models", "Project.Models\BullsAndCows.Models.csproj", "{983056FA-B0A4-4214-96B4-7EBEB65EC1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Data", "Project.Data\BullsAndCows.Data.csproj", "{8BAF643F-82A6-44FE-887F-FA79A9226AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BullsAndCows.Web", "Project.Web\BullsAndCows.Web.csproj", "{7E7B454C-FB41-42D6-A9D0-3D597ABFBAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Wcf", "Project.Wcf\Project.Wcf.csproj", "{A0D13FF2-5640-4761-9344-177E9778404B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Tests", "Project.Tests\Project.Tests.csproj", "{BABE5FB3-76EB-4F51-847D-9006D188FAEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B3E89D35-B737-48A7-9994-6D92812E0B13}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{983056FA-B0A4-4214-96B4-7EBEB65EC1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983056FA-B0A4-4214-96B4-7EBEB65EC1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983056FA-B0A4-4214-96B4-7EBEB65EC1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983056FA-B0A4-4214-96B4-7EBEB65EC1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BAF643F-82A6-44FE-887F-FA79A9226AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAF643F-82A6-44FE-887F-FA79A9226AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAF643F-82A6-44FE-887F-FA79A9226AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAF643F-82A6-44FE-887F-FA79A9226AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7B454C-FB41-42D6-A9D0-3D597ABFBAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7B454C-FB41-42D6-A9D0-3D597ABFBAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7B454C-FB41-42D6-A9D0-3D597ABFBAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7B454C-FB41-42D6-A9D0-3D597ABFBAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D13FF2-5640-4761-9344-177E9778404B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D13FF2-5640-4761-9344-177E9778404B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D13FF2-5640-4761-9344-177E9778404B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D13FF2-5640-4761-9344-177E9778404B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABE5FB3-76EB-4F51-847D-9006D188FAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABE5FB3-76EB-4F51-847D-9006D188FAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABE5FB3-76EB-4F51-847D-9006D188FAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABE5FB3-76EB-4F51-847D-9006D188FAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

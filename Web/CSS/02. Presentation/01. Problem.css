@@ -1,0 +1,22 @@
+﻿* {
+    margin: 4px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Edwardian';
+    src: url('ITCEdscr.TTF');
+}
+
+p {
+    font-family: Consolas;
+    color: #0094ff;
+}
+
+    p::first-line {
+        font-weight: 900;
+    }
+    p::first-letter{
+        font-family:Edwardian;
+        font-size:36px;
+    }

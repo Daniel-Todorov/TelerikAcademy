@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>01. Problem</title>
+    
+</head>
+<body>
+    <canvas id="mario-walking" width="200" height="100" style="border: 1px solid black; position: absolute; top: 0; left: 0;"></canvas>
+    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" style="position: absolute; top: 0; left: 0; z-index: -1">
+        <rect x="0" y="80" width="200" height="100" fill="#0c9319"></rect>
+    </svg>
+    <img id="mario" src="mario.png" alt="The Scream" style="display:none">
+    <script >
+var canvas = document.getElementById('mario-walking'),
+    context = canvas.getContext('2d'),
+    img = document.getElementById('mario'),
+    marioWidth = canvas.width / 2 - 15,
+    marioHeight = canvas.height - 65,
+    counter = -1;
+
+drawMario(context, img, counter, marioWidth, marioHeight);
+
+function drawMario(context, img, counter, marioWidth, marioHeight) {
+    if (counter < 7) {
+        counter++;
+    } else {
+        counter = 0;
+    }
+
+    context.drawImage(img, counter * 21, 0, 21, 40, marioWidth, marioHeight, 30, 60);
+
+    setTimeout(function () {
+        context.clearRect(0, 0, 200, 100);
+        drawMario(context, img, counter, marioWidth, marioHeight);
+    }, 100);
+}
+	</script>
+</body>
+</html>

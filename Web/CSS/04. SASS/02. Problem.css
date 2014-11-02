@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+section {
+  width: 1400px; }
+
+img, label {
+  width: 200px;
+  height: 180px; }
+
+label {
+  margin: 15px 3px 20px 3px;
+  display: block;
+  float: left; }
+  label:first-of-type {
+    margin-left: 30px; }
+  label:last-of-type {
+    margin-right: 30px; }
+
+input[type="image"] {
+  height: 0;
+  width: 0; }
+  input[type="image"]:focus {
+    margin: 3px 30px 3px 30px;
+    height: 540px;
+    width: 600px;
+    position: fixed;
+    top: 220px;
+    left: 0; }
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+/*# sourceMappingURL=02. Problem.css.map */

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63D2C362-7510-47D7-A1E4-2779A5ABBC3B}"
+	ProjectSection(SolutionItems) = preProject
+		01. Problem.css = 01. Problem.css
+		01. Problem.html = 01. Problem.html
+		02. Problem.css = 02. Problem.css
+		02. Problem.html = 02. Problem.html
+		03. Problem.css = 03. Problem.css
+		03. Problem.html = 03. Problem.html
+		english.png = english.png
+		german.png = german.png
+		mexico.png = mexico.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

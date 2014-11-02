@@ -1,0 +1,52 @@
+﻿* {
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+body {
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+th, td {
+    width: 190px;
+}
+
+th {
+    padding-bottom: 24px;
+    font-size: 24px;
+    font-weight: normal;
+    color: lightgrey;
+}
+
+.redText {
+    color: red;
+}
+
+.orangeText {
+    color: orange;
+}
+
+.firstRow {
+    font-style: italic;
+    width: 150px;
+}
+
+.greyText {
+    color: lightgrey;
+}
+
+.yellowText {
+    color: lightgoldenrodyellow;
+}
+
+#greenCircle {
+    display: inline-block;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}

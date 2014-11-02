@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 2</title>
+</head>
+<body>
+    <div>
+        Preceding Text
+    </div>
+    <ol type="I" title="asdsdf">
+        <li>
+            <div>List item 1</div>
+            <ol type="a">
+                <li>
+                    <div>Nested item 1.1</div>
+                </li>
+                <li>
+                    <div>Nested item 1.2</div>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <div>List item 1</div>
+            <ol type="1">
+                <li>
+                    <div>Nested item 2.1</div>
+                </li>
+                <li>
+                    <div>Nested item 2.2</div>
+                    <!-- For some reason VS says that the type atribute is unknown for <ul> tag but it still works. -->
+                    <ul type="circle">
+                        <li>
+                            <div>Nested item 2.2.1</div>
+                        </li>
+                        <li>
+                            <div>Nested item 2.2.2</div>
+                            <ul type="square">
+                                <li>
+                                    <div>Nested item 2.2.2.1</div>
+                                </li>
+                                <li>
+                                    <div>Nested item 2.2.2.2</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div>Nested item 2.2.3</div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>Nested item 2.3</div>
+                </li>
+            </ol>
+        </li>
+        <li>
+            <div>List item 3</div>
+            <ul type="disc">
+                <!-- It's probably a mistake, but in the example in the homework the nested items here are all 3.1 -->
+                <li>
+                    <div>Nested item 3.1</div>
+                </li>
+                <li>
+                    <div>Nested item 3.1</div>
+                </li>
+                <li>
+                    <div>Nested item 3.1</div>
+                </li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>

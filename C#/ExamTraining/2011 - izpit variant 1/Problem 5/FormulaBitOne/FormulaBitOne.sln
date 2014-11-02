@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaBitOne", "FormulaBitOne\FormulaBitOne.csproj", "{CD3F6567-38FA-41CD-8AF0-69433C14018B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{448FED08-92E3-4D7C-AAE1-2F2326FD55DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD3F6567-38FA-41CD-8AF0-69433C14018B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3F6567-38FA-41CD-8AF0-69433C14018B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3F6567-38FA-41CD-8AF0-69433C14018B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3F6567-38FA-41CD-8AF0-69433C14018B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448FED08-92E3-4D7C-AAE1-2F2326FD55DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448FED08-92E3-4D7C-AAE1-2F2326FD55DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448FED08-92E3-4D7C-AAE1-2F2326FD55DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448FED08-92E3-4D7C-AAE1-2F2326FD55DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

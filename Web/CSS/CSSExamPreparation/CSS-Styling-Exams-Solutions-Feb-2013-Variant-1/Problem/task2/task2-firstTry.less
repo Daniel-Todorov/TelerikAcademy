@@ -1,0 +1,81 @@
+.gradientBackground (@topColor, @topStart, @botomColor, @botomStart) {
+    background: @topColor; /* Old browsers */
+    background: -moz-linear-gradient(top, @topColor @topStart, @botomColor @botomStart); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@topStart,@topColor), color-stop(@botomStart,@botomColor)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* IE10+ */
+    background: linear-gradient(to bottom, @topColor @topStart,@botomColor @botomStart); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@topColor', endColorstr='@botomColor',GradientType=0 ); /* IE6-9 */
+}
+
+body, div, ul, li, table, td, tr, a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 5px;
+    padding-bottom: 0;
+    .gradientBackground(#ebebeb, 1%, #adadad, 99%);
+    
+    &:hover{
+        background-color: #eeeeee;
+    }
+}
+
+ul.tab-strip {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 340px;
+    height: 230px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+    > li > a.tab-btn {
+        border-width: 0 1px 1px 0;
+        border-style: solid;
+        border-color: black;
+        border-radius: 5px;
+        width: 84px;
+        height: 30px;
+        
+    }
+
+    >li:last-of-type > a {
+        border-width: 0 0 1px 0;
+    }
+
+    > li.current > a {
+        border-width: 0 1px 0 0;
+        border-radius: 0;
+        border-top-left-radius: 5px;
+        .gradientBackground(white, 0, white, 100%);
+        font-weight: bold;
+    }
+
+    >li:hover > a {
+        .gradientBackground(#eeeeee, 0, eeeeee, 100%);
+    }
+}
+
+div#wrapper {
+    width: 960px;
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+
+    >ul > li {
+        display: inline-block;
+        vertical-align: top;
+
+        div.tab-content {
+            display: none;
+        }
+    }
+}

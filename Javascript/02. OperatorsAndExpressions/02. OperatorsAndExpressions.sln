@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. OddOrEven", "01. OddOrEven", "{1154AE5B-E72B-42A1-8A34-3552AB6202CC}"
+	ProjectSection(SolutionItems) = preProject
+		OddOrEven.html = OddOrEven.html
+		OddOrEven.js = OddOrEven.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. DivisionBySevenAndFive", "02. DivisionBySevenAndFive", "{D1FA39D0-4EDD-41A5-9CB8-E9DE75144B9A}"
+	ProjectSection(SolutionItems) = preProject
+		DivisionBySevenAndFive.html = DivisionBySevenAndFive.html
+		DivisionBySevenAndFive.js = DivisionBySevenAndFive.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. CalculateRectangleArea", "03. CalculateRectangleArea", "{C2DDB27B-649A-48A5-9A0E-8BB894389A44}"
+	ProjectSection(SolutionItems) = preProject
+		CalculateRectangleArea.html = CalculateRectangleArea.html
+		CalculateRectangleArea.js = CalculateRectangleArea.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. CheckThridDigit", "04. CheckThridDigit", "{2B5064F2-FEDA-4331-888F-19537AC2097F}"
+	ProjectSection(SolutionItems) = preProject
+		CheckThridDigit.html = CheckThridDigit.html
+		CheckThridDigit.js = CheckThridDigit.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. FindBitAtGivenPosition", "05. FindBitAtGivenPosition", "{76E0FED7-87EC-4D31-AD76-48AC9E4A3D0C}"
+	ProjectSection(SolutionItems) = preProject
+		FindBitAtGivenPosition.html = FindBitAtGivenPosition.html
+		FindBitAtGivenPosition.js = FindBitAtGivenPosition.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. PointWithinCircle", "06. PointWithinCircle", "{BD1E57BA-A975-4540-BA78-C48294A6909F}"
+	ProjectSection(SolutionItems) = preProject
+		PointWithinCircle.html = PointWithinCircle.html
+		PointWithinCircle.js = PointWithinCircle.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. CheckPrimeNumbers", "07. CheckPrimeNumbers", "{C1C301D5-710A-4EBD-8B21-787D3E681EC8}"
+	ProjectSection(SolutionItems) = preProject
+		CheckPrimeNumbers.html = CheckPrimeNumbers.html
+		CheckPrimeNumbers.js = CheckPrimeNumbers.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. CalculateTrapezoidArea", "08. CalculateTrapezoidArea", "{51887D4A-65DA-4E0B-AA01-59B1904CFB53}"
+	ProjectSection(SolutionItems) = preProject
+		CalculateTrapezoidArea.html = CalculateTrapezoidArea.html
+		CalculateTrapezoidArea.js = CalculateTrapezoidArea.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. InCircleOutOfRectangle", "09. InCircleOutOfRectangle", "{AE468260-3D9D-4BC1-9218-9BDE5AE03D17}"
+	ProjectSection(SolutionItems) = preProject
+		InCircleOutOfRectangle.html = InCircleOutOfRectangle.html
+		InCircleOutOfRectangle.js = InCircleOutOfRectangle.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

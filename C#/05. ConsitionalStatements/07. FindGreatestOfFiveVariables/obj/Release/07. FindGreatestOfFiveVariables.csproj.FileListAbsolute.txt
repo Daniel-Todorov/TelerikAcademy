@@ -1,0 +1,5 @@
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\07. FindGreatestOfFiveVariables\bin\Release\_07.FindGreatestOfFiveVariables.exe.config
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\07. FindGreatestOfFiveVariables\bin\Release\_07.FindGreatestOfFiveVariables.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\07. FindGreatestOfFiveVariables\bin\Release\_07.FindGreatestOfFiveVariables.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\07. FindGreatestOfFiveVariables\obj\Release\_07.FindGreatestOfFiveVariables.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\07. FindGreatestOfFiveVariables\obj\Release\_07.FindGreatestOfFiveVariables.pdb

@@ -1,0 +1,5 @@
+C:\Documents and Settings\Lakorda\Local Settings\Application Data\Temporary Projects\05. ConsitionalStatements\bin\Release\_05.ConsitionalStatements.exe
+C:\Documents and Settings\Lakorda\Local Settings\Application Data\Temporary Projects\05. ConsitionalStatements\bin\Release\_05.ConsitionalStatements.pdb
+C:\Documents and Settings\Lakorda\Local Settings\Application Data\Temporary Projects\05. ConsitionalStatements\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Lakorda\Local Settings\Application Data\Temporary Projects\05. ConsitionalStatements\obj\x86\Release\_05.ConsitionalStatements.exe
+C:\Documents and Settings\Lakorda\Local Settings\Application Data\Temporary Projects\05. ConsitionalStatements\obj\x86\Release\_05.ConsitionalStatements.pdb

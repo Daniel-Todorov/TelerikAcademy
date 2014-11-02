@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>02. Problem</title>
+    <script src="handlebars.js"></script>
+    <script src="02. DynamicSelect.js"></script>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <script id="select-template" type="text/x-handlebars-template">
+        <select>
+            {{#items}}
+            <option value="{{value}}">{{text}}</option>
+            {{/items}}
+        </select>
+    </script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+﻿The lecturer said it's not mandatory for the prject upload to be anonymous.
+
+https://github.com/Daniel-Todorov/JavaBasicsSoftUni

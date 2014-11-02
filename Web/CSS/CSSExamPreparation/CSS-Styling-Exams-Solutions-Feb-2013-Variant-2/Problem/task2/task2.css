@@ -1,0 +1,146 @@
+body,
+div,
+ul,
+li,
+img,
+a,
+span {
+  margin: 0;
+  padding: 0;
+}
+div#wrapper {
+  width: 960px;
+}
+img {
+  width: 15px;
+  height: 15px;
+  margin-left: 15px;
+  margin-top: 2px;
+  vertical-align: middle;
+}
+ul.notification-list {
+  display: inline-block;
+  width: 470px;
+  margin: 25px;
+  border: 1px solid black;
+  border-bottom: 0 solid black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #ababab;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ababab 0, #dddddd 80%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ababab), color-stop(80%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ababab 0, #dddddd 80%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ababab 0, #dddddd 80%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ababab 0, #dddddd 80%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ababab 0, #dddddd 80%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@topColor', endColorstr='@botomColor', GradientType=0);
+  /* IE6-9 */
+}
+ul.notification-list > li {
+  display: inline-block;
+  height: 30px;
+  vertical-align: top;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  background: #ababab;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ababab 0, #dddddd 80%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ababab), color-stop(80%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ababab 0, #dddddd 80%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ababab 0, #dddddd 80%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ababab 0, #dddddd 80%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ababab 0, #dddddd 80%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@topColor', endColorstr='@botomColor', GradientType=0);
+  /* IE6-9 */
+}
+ul.notification-list > li:hover {
+  border-bottom: 0;
+}
+ul.notification-list > li:last-of-type {
+  border-top-right-radius: 15px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+ul.notification-list > li:first-of-type {
+  border-top-left-radius: 15px;
+}
+ul.notification-list > li:hover div.content > ul {
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+  top: 57px;
+  width: 470px;
+  list-style: none;
+  border: 1px solid black;
+  border-top: 0;
+  background: #dddddd;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #dddddd 25%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #dddddd), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #dddddd 25%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #dddddd 25%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #dddddd 25%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #dddddd 25%, #cccccc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@topColor', endColorstr='@botomColor', GradientType=0);
+  /* IE6-9 */
+  font-size: 0.85em;
+}
+ul.notification-list > li:hover div.content > ul strong {
+  font-weight: bold;
+  color: #5e5e5e;
+}
+ul.notification-list > li:hover div.content > ul > li > a > span {
+  margin-left: 5px;
+}
+ul.notification-list > li:hover div.content > ul > li:first-of-type {
+  margin: 1px 0;
+}
+ul.notification-list > li:hover div.content > ul > li {
+  margin: 6px 0;
+}
+ul.notification-list > li:hover div.content > ul > li:last-of-type {
+  margin-bottom: 5px;
+}
+ul.notification-list > li:hover div.content > ul img {
+  margin-bottom: 2px;
+}
+ul.notification-list > li:hover div.content > ul span {
+  display: inline;
+}
+span {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 15px;
+  text-align: center;
+}
+div.content > ul {
+  display: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #777777;
+  font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+  font-size: 1.2em;
+}
+/*# sourceMappingURL=task2.css.map */

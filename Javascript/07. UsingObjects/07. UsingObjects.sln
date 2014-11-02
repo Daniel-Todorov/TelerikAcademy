@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. WorkWithShapes", "01. WorkWithShapes", "{04F3861A-97D5-47D0-A083-731EDC531459}"
+	ProjectSection(SolutionItems) = preProject
+		WorkWithShapes.html = WorkWithShapes.html
+		WorkWithShapes.js = WorkWithShapes.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. RemoveElementsWithGivenValue", "02. RemoveElementsWithGivenValue", "{6830F8AB-6497-43FE-810C-D5087D533E96}"
+	ProjectSection(SolutionItems) = preProject
+		RemoveElementsWithGivenValue.html = RemoveElementsWithGivenValue.html
+		RemoveElementsWithGivenValue.js = RemoveElementsWithGivenValue.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. DeepCopy", "03. DeepCopy", "{163F70A7-41B3-49DF-B469-DE9EB6A715A8}"
+	ProjectSection(SolutionItems) = preProject
+		DeepCopy.html = DeepCopy.html
+		DeepCopy.js = DeepCopy.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. CheckForProperty", "04. CheckForProperty", "{3FCB20A0-5FDF-43BC-8006-A51E153C8B97}"
+	ProjectSection(SolutionItems) = preProject
+		CheckForProperty.html = CheckForProperty.html
+		CheckForProperty.js = CheckForProperty.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. FindYoungest", "05. FindYoungest", "{329A4812-92D6-4305-A639-C677ADC4633E}"
+	ProjectSection(SolutionItems) = preProject
+		FindYoungest.html = FindYoungest.html
+		FindYoungest.js = FindYoungest.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. GroupArrayOfPersons", "06. GroupArrayOfPersons", "{271D56B6-9330-4889-89E3-2BFB1C6BE5E9}"
+	ProjectSection(SolutionItems) = preProject
+		GroupArrayOfPersons.html = GroupArrayOfPersons.html
+		GroupArrayOfPersons.js = GroupArrayOfPersons.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

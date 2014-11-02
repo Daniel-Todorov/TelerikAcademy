@@ -1,0 +1,20 @@
+﻿ul {
+    display: inline-block;
+    width: 100px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+    ul li {
+        display: none;
+        padding: 5px;
+        border: 1px solid black;
+    }
+
+        ul li:first-child {
+            display: block;
+            background-image: url('arrow.png');
+            background-position: 90% 50%;
+            background-repeat: no-repeat;
+            background-size: 10%;
+        }

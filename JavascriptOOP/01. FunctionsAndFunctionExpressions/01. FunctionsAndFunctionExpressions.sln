@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. ModuleForDOM", "01. ModuleForDOM", "{F3581A10-1542-4023-A410-7B85FBFCBB7F}"
+	ProjectSection(SolutionItems) = preProject
+		01. ModuleForDOM.html = 01. ModuleForDOM.html
+		01. ModuleForDOM.js = 01. ModuleForDOM.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. ModuleForDivs", "02. ModuleForDivs", "{FE280CAF-622C-46F0-BD97-1F25607100B6}"
+	ProjectSection(SolutionItems) = preProject
+		02. ModuleForDivs.html = 02. ModuleForDivs.html
+		02. ModuleForDivs.js = 02. ModuleForDivs.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. ModuleForWriting", "03. ModuleForWriting", "{0831E76C-F5E6-4BB5-B148-14BCB696957D}"
+	ProjectSection(SolutionItems) = preProject
+		03. ModuleForWriting.html = 03. ModuleForWriting.html
+		03. ModuleForWriting.js = 03. ModuleForWriting.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

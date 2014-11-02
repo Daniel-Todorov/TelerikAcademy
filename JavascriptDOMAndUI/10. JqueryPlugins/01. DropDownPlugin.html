@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>01. Problem</title>
+    <link href="01. DropDownPlugin.css" rel="stylesheet" />
+    <script src="jquery.min.js"></script>
+    <!--<script src="01. DropDownPlugin.js"></script>-->
+</head>
+<body>
+    <select id="dropdown">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+        <option value="5">Five</option>
+    </select>
+    <button id="consoleDir">console.dir the selected option</button>
+    <script>
+        (function ($) {
+
+            $.fn.dropdown = function () {
+                var $this = $(this), //The original option
+                    numberOfOptions = $this.children('option').length,
+                    $options = $this.children('option'),
+                    $dropdownContainer = $('<div>').addClass('dropdown-list-container'),
+                    $dropdownListOptions = $('<ul>').addClass('dropdown-list-options');
+                
+                $this.hide();
+
+                for (var i = 0; i <= numberOfOptions; i++) {
+                    if (i !== numberOfOptions) {
+                        var $listItem = $('<li>');
+                        $listItem.attr('data-value', i)
+                        $listItem.text($options[i].text);
+                        $dropdownListOptions.append($listItem);
+                    } else {
+                        var $listItem = $('<li>');
+                        $listItem.attr('data-value', 0)
+                        $listItem.text($options[0].text);
+                        $dropdownListOptions.prepend($listItem);
+                    }
+
+                }
+
+                $dropdownListOptions.find('li:first').on('click', function () {
+                    $dropdownListOptions.find('li:not(:first)').toggle();
+                })
+
+                $dropdownListOptions.find('li:not(:first)').on('click', function () {
+                    var $this = $(this),
+                        selectedIndex = $this.attr('data-value'),
+                        selectedContent = $this.text();
+
+                    $options[selectedIndex].selected = 'true';
+
+                    $dropdownListOptions.find('li:first').attr('data-value', selectedIndex);
+                    $dropdownListOptions.find('li:first').text(selectedContent);
+
+                    $dropdownListOptions.find('li:not(:first)').toggle();
+                })
+
+                $dropdownContainer.append($dropdownListOptions);
+                $this.parent().append($dropdownContainer);
+
+
+            };
+
+        }(jQuery));
+
+        $(function () {
+            $('#dropdown').dropdown();
+
+            //Please, read this: http://api.jquery.com/selected-selector/
+            //It says :selected can be used on option tag, but not on select tag, as it is shown in the example
+            $('#consoleDir').on('click', function () {
+                console.dir($('#dropdown option:selected'));
+            });
+        })
+    </script>
+</body>
+</html>

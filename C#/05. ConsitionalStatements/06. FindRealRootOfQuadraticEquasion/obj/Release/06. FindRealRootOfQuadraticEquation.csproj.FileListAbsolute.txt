@@ -1,0 +1,6 @@
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\06. FindRealRootOfQuadraticEquasion\bin\Release\_06.FindRealRootOfQuadraticEquasion.exe.config
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\06. FindRealRootOfQuadraticEquasion\bin\Release\_06.FindRealRootOfQuadraticEquasion.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\06. FindRealRootOfQuadraticEquasion\bin\Release\_06.FindRealRootOfQuadraticEquasion.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\06. FindRealRootOfQuadraticEquasion\obj\Release\06. FindRealRootOfQuadraticEquation.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\06. FindRealRootOfQuadraticEquasion\obj\Release\_06.FindRealRootOfQuadraticEquasion.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\06. FindRealRootOfQuadraticEquasion\obj\Release\_06.FindRealRootOfQuadraticEquasion.pdb

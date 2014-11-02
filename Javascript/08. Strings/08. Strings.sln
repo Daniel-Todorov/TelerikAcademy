@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. ReverseString", "01. ReverseString", "{1BF0F3ED-5A51-497E-BABC-CFFACD06A968}"
+	ProjectSection(SolutionItems) = preProject
+		ReverseString.html = ReverseString.html
+		ReverseString.js = ReverseString.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. CorrectBrackets", "02. CorrectBrackets", "{AFA6B1FE-17F2-4413-864E-7B71F7C16E7C}"
+	ProjectSection(SolutionItems) = preProject
+		CorrectBrackets.html = CorrectBrackets.html
+		CorrectBrackets.js = CorrectBrackets.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. NumberOfContains", "03. NumberOfContains", "{05504751-4E48-4255-9082-6BBDC356AF59}"
+	ProjectSection(SolutionItems) = preProject
+		NumberOfContains.html = NumberOfContains.html
+		NumberOfContains.js = NumberOfContains.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. ChanceCaseOfTags", "04. ChanceCaseOfTags", "{61F851DB-DCA2-454E-8683-00D3BDDB62A7}"
+	ProjectSection(SolutionItems) = preProject
+		ChanceCaseOfTags.html = ChanceCaseOfTags.html
+		ChanceCaseOfTags.js = ChanceCaseOfTags.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. RepalceWhiteSpaces", "05. RepalceWhiteSpaces", "{42DDDD77-F4F1-475F-9B8B-C162BCA4D69C}"
+	ProjectSection(SolutionItems) = preProject
+		RepalceWhiteSpaces.html = RepalceWhiteSpaces.html
+		RepalceWhiteSpaces.js = RepalceWhiteSpaces.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. ContentOfHTML", "06. ContentOfHTML", "{26A8DB7C-CA6A-4533-8E4F-A88F4E23AB6B}"
+	ProjectSection(SolutionItems) = preProject
+		ContentOfHTML.html = ContentOfHTML.html
+		ContentOfHTML.js = ContentOfHTML.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. URLParser", "07. URLParser", "{4A8CC92D-039E-4329-9268-1284D226C80A}"
+	ProjectSection(SolutionItems) = preProject
+		URLParser.html = URLParser.html
+		URLParser.js = URLParser.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. ReplaceTags", "08. ReplaceTags", "{34C4846A-56C2-43F5-83FE-52D2A7DB2037}"
+	ProjectSection(SolutionItems) = preProject
+		ReplaceTags.html = ReplaceTags.html
+		ReplaceTags.js = ReplaceTags.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. ExtractEmails", "09. ExtractEmails", "{1101C4E1-FE9B-45FF-9595-78A243678963}"
+	ProjectSection(SolutionItems) = preProject
+		ExtractEmails.html = ExtractEmails.html
+		ExtractEmails.js = ExtractEmails.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. ExtractPalindromes", "10. ExtractPalindromes", "{6881BDB3-D62E-4D6A-85D9-2C7873A95BFB}"
+	ProjectSection(SolutionItems) = preProject
+		ExtractPalindromes.html = ExtractPalindromes.html
+		ExtractPalindromes.js = ExtractPalindromes.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. FormatStringWithPlaceholders", "11. FormatStringWithPlaceholders", "{853B9AAB-CA63-4345-ADC9-028032979731}"
+	ProjectSection(SolutionItems) = preProject
+		FormatStringWithPlaceholders.html = FormatStringWithPlaceholders.html
+		FormatStringWithPlaceholders.js = FormatStringWithPlaceholders.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12. CreateULFromTemplate", "12. CreateULFromTemplate", "{EFD2F6B0-C298-4F7D-A561-355D7E0BFDB3}"
+	ProjectSection(SolutionItems) = preProject
+		CreateULFromTemplate.html = CreateULFromTemplate.html
+		CreateULFromTemplate.js = CreateULFromTemplate.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

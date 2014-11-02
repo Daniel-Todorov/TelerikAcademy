@@ -1,0 +1,11 @@
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\ConsoleApplication1\bin\Release\S.exe
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\ConsoleApplication1\bin\Release\S.pdb
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\ConsoleApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\ConsoleApplication1\obj\x86\Release\S.exe
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\ConsoleApplication1\obj\x86\Release\S.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\ConsoleApplication1\obj\x86\Release\S.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\ConsoleApplication1\obj\x86\Release\S.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\ConsoleApplication1\bin\Release\S.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\ConsoleApplication1\bin\Release\S.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\05. ShowNameOfDigit\obj\x86\Release\S.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\05. ShowNameOfDigit\obj\x86\Release\S.pdb

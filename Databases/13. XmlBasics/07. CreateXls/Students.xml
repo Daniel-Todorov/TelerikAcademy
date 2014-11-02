@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type='text/xsl' href='XlsForStudents.xslt'?>
+<!--Create XML document students.xml, which 
+contains structured description of students. For each 
+student you should enter information for his name, 
+sex, birth date, phone, email, course, specialty, 
+faculty number and a list of taken exams (exam 
+name, tutor, score).-->
+<students>
+  <student>
+    <name>Pesho</name>
+    <sex>twice per month</sex>
+    <birthday>01.01.1990</birthday>
+    <phone>0877846060</phone>
+    <email>pesho@abv.bg</email>
+    <course>Forth</course>
+    <specialty>ninja</specialty>
+    <faculty-number>7008523</faculty-number>
+    <exams>
+      <exam>
+        <name>Databases</name>
+        <tutor>Evlogi</tutor>
+        <score>100</score>
+      </exam>
+      <exam>
+        <name>Databases</name>
+        <tutor>Ivaylo</tutor>
+        <score>90</score>
+      </exam>
+      <exam>
+        <name>Databases</name>
+        <tutor>Doncho</tutor>
+        <score>110</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Gosho</name>
+    <sex>twice per week</sex>
+    <birthday>01.01.1995</birthday>
+    <phone>0877846061</phone>
+    <email>gosho@abv.bg</email>
+    <course>Second</course>
+    <specialty>ninja</specialty>
+    <faculty-number>7008524</faculty-number>
+    <exams>
+      <exam>
+        <name>Databases</name>
+        <tutor>Evlogi</tutor>
+        <score>100</score>
+      </exam>
+      <exam>
+        <name>Databases</name>
+        <tutor>Ivaylo</tutor>
+        <score>90</score>
+      </exam>
+      <exam>
+        <name>Databases</name>
+        <tutor>Doncho</tutor>
+        <score>110</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Mariika</name>
+    <sex>twice per day</sex>
+    <birthday>01.01.1997</birthday>
+    <phone>0877846062</phone>
+    <email>mariika@abv.bg</email>
+    <course>First</course>
+    <specialty>master of all trades</specialty>
+    <faculty-number>7008525</faculty-number>
+    <exams>
+      <exam>
+        <name>Databases</name>
+        <tutor>Evlogi</tutor>
+        <score>100</score>
+      </exam>
+      <exam>
+        <name>Databases</name>
+        <tutor>Ivaylo</tutor>
+        <score>90</score>
+      </exam>
+      <exam>
+        <name>Databases</name>
+        <tutor>Doncho</tutor>
+        <score>110</score>
+      </exam>
+    </exams>
+  </student>
+</students>
+

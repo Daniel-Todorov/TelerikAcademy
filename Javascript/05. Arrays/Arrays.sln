@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. AllocateArray", "01. AllocateArray", "{CD1417E3-E502-4AD7-BD8E-D590FEFBFECA}"
+	ProjectSection(SolutionItems) = preProject
+		AllocateArray.html = AllocateArray.html
+		AllocateArray.js = AllocateArray.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. CompareArrays", "02. CompareArrays", "{2164206F-D6F0-4B1F-AFD7-3F81ECA930A6}"
+	ProjectSection(SolutionItems) = preProject
+		CompareArrays.html = CompareArrays.html
+		CompareArrays.js = CompareArrays.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. MaximalSequenceOfEqualElements", "03. MaximalSequenceOfEqualElements", "{6A823D00-D3A7-4221-93FE-7DE22C14B2BA}"
+	ProjectSection(SolutionItems) = preProject
+		MaximalSequenceOfEqualElements.html = MaximalSequenceOfEqualElements.html
+		MaximalSequenceOfEqualElements.js = MaximalSequenceOfEqualElements.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. MaximalIncreasingSequence", "04. MaximalIncreasingSequence", "{436F2C86-38EC-41B0-975C-6159104A150C}"
+	ProjectSection(SolutionItems) = preProject
+		MaximalIncreasingSequence.html = MaximalIncreasingSequence.html
+		MaximalIncreasingSequence.js = MaximalIncreasingSequence.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. SelectionSortArray", "05. SelectionSortArray", "{5EC8A778-80CC-4772-9A7B-5A055DCE5CC6}"
+	ProjectSection(SolutionItems) = preProject
+		SelectionSortArray.html = SelectionSortArray.html
+		SelectionSortArray.js = SelectionSortArray.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. MostFrequentNumber", "06. MostFrequentNumber", "{C0B96645-29CA-4034-896E-91664ABFEE9C}"
+	ProjectSection(SolutionItems) = preProject
+		MostFrequentNumber.html = MostFrequentNumber.html
+		MostFrequentNumber.js = MostFrequentNumber.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. FindIndexBinarySearch", "07. FindIndexBinarySearch", "{437B7C7E-53BB-4BE7-89BC-F23A52C6B63E}"
+	ProjectSection(SolutionItems) = preProject
+		FindIndexBinarySearch.html = FindIndexBinarySearch.html
+		FindIndexBinarySearch.js = FindIndexBinarySearch.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

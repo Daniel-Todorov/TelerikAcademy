@@ -1,0 +1,104 @@
+@resolution: 960px;
+@font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+@font-size: 16px;
+
+.gradientBackground (@topColor, @topStart, @botomColor, @botomStart) {
+    background: @topColor; /* Old browsers */
+    background: -moz-linear-gradient(top, @topColor @topStart, @botomColor @botomStart); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@topStart,@topColor), color-stop(@botomStart,@botomColor)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @topColor @topStart,@botomColor @botomStart); /* IE10+ */
+    background: linear-gradient(to bottom, @topColor @topStart,@botomColor @botomStart); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@topColor', endColorstr='@botomColor',GradientType=0 ); /* IE6-9 */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------*/
+
+div#wrapper {
+    width: @resolution;
+    font-size: @font-size;
+    font-family: @font-family;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    display: none;
+}
+
+div.content {
+    display: none;
+}
+
+ul.menu {
+    margin: 7px 5px;
+}
+
+    ul.menu > li > a {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display: inline-block;
+        width: 170px;
+        padding: 10px 0;
+        margin-bottom: 10px;
+        text-align: center;
+        background-color: #b6ff00;
+        border-radius: 15px;
+    }
+
+    ul.menu > li:hover {
+
+        a {
+            text-decoration: underline;
+        }
+
+        .content {
+            display: inline-block;
+            position: absolute;
+
+            a {
+                display: block;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+ul.sub-menu li {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 540px;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    background-color: #008000;
+    border-radius: 10px;
+}
+
+    ul.sub-menu li:hover {
+        img {
+            display: block;
+            width: 500px;
+            height: 260px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+    }
+
+ul.menu>li>div.content>ul.sub-menu > li:hover > a {
+    text-decoration: underline;
+}

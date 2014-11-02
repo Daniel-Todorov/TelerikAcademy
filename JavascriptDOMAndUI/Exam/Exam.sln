@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Problem", "03. Problem", "{62465FB6-D0BA-430B-A775-AE631C9B5A46}"
+	ProjectSection(SolutionItems) = preProject
+		Task 3\task-files\index.html = Task 3\task-files\index.html
+		Task 3\task-files\scripts.js = Task 3\task-files\scripts.js
+		Task 3\task-files\styles.css = Task 3\task-files\styles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Problem", "02. Problem", "{E80840F0-6B34-4CD4-BFC9-B952793F2842}"
+	ProjectSection(SolutionItems) = preProject
+		Task 2\task-files\index.html = Task 2\task-files\index.html
+		Task 2\task-files\scripts.js = Task 2\task-files\scripts.js
+		Task 2\task-files\styles.css = Task 2\task-files\styles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Problem", "01. Problem", "{C7C31951-A423-4600-9341-CEA53A0A06AF}"
+	ProjectSection(SolutionItems) = preProject
+		Task 1\task-files\index.html = Task 1\task-files\index.html
+		Task 1\task-files\scripts.js = Task 1\task-files\scripts.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

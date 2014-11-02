@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Problem", "01. Problem", "{2BB95629-2E07-43D8-BC2E-951D1B989104}"
+	ProjectSection(SolutionItems) = preProject
+		01. Problem.css = 01. Problem.css
+		01. Problem.html = 01. Problem.html
+		ITCEdscr.TTF = ITCEdscr.TTF
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Problem", "02. Problem", "{33BA7785-D0D3-4DBF-9E81-3C2BFF369EF8}"
+	ProjectSection(SolutionItems) = preProject
+		02. Problem.css = 02. Problem.css
+		02. Problem.html = 02. Problem.html
+		images\li-dot.png = images\li-dot.png
+		images\Sample Logo.png = images\Sample Logo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Problem", "03. Problem", "{E56CD6B4-FD56-4555-8BD8-EC7858FB72FA}"
+	ProjectSection(SolutionItems) = preProject
+		03. Problem.css = 03. Problem.css
+		03. Problem.html = 03. Problem.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Problem", "04. Problem", "{87A89EC0-53CB-4BD0-8767-A56F762F0922}"
+	ProjectSection(SolutionItems) = preProject
+		04. Problem.css = 04. Problem.css
+		04. Problem.html = 04. Problem.html
+		calculator.png = calculator.png
+		resize.png = resize.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

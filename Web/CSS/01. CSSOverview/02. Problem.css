@@ -1,0 +1,68 @@
+﻿/*!!!Note!!! 
+It seems border-color of table is inherited by td and th only in chrome. 
+It does not work in Firefox, for example.
+You need to put explicitly border-color of td and th if you want it to work for firefox or IE.*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Tahoma;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: #F0EBE6;
+}
+
+th {
+    text-align: left;
+    color: white;
+    background-color: lawngreen;
+    height: 24px;
+    padding: 4px;
+    border-color: lightgray;
+}
+
+td {
+    height: 30px;
+    padding: 4px;
+    border-color: lightgray;
+}
+
+img {
+    width: 40px;
+    height: 30px;
+    vertical-align: middle;
+    padding-right: 4px;
+}
+
+.centered {
+}
+
+.text {
+    display: inline;
+    padding: 4px;
+}
+
+#contactName {
+    width: 200px;
+}
+
+#city {
+    width: 150px;
+}
+
+#country {
+    width: 180px;
+}
+
+#promoted {
+    width: 100px;
+}

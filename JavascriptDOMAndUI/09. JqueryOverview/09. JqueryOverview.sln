@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8AECB7FC-0EED-413A-81F1-641C0F873A64}"
+	ProjectSection(SolutionItems) = preProject
+		01. SliderControl.css = 01. SliderControl.css
+		01. SliderControl.html = 01. SliderControl.html
+		01. SliderControl.js = 01. SliderControl.js
+		02. PrependAndAppend.css = 02. PrependAndAppend.css
+		02. PrependAndAppend.html = 02. PrependAndAppend.html
+		02. PreprendAndAppend.js = 02. PreprendAndAppend.js
+		03. GenerateTable.css = 03. GenerateTable.css
+		03. GenerateTable.html = 03. GenerateTable.html
+		03. GenerateTable.js = 03. GenerateTable.js
+		04. ChangeBackgroundColor.html = 04. ChangeBackgroundColor.html
+		04. ChangeBackgroundColor.js = 04. ChangeBackgroundColor.js
+		jquery.min.js = jquery.min.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

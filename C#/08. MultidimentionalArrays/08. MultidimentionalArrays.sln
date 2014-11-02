@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. FillAndPrintCubeMatrix", "01. FillAndPrintCubeMatrix\01. FillAndPrintCubeMatrix.csproj", "{E3D06831-11BF-4904-8C4B-9FF3EFB90BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. FindSquareWithMaxSum", "02. FindSquareWithMaxSum\02. FindSquareWithMaxSum.csproj", "{865E86C5-624F-4C0D-BB6E-1D849D2B1FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. FindLongestSequence", "03. FindLongestSequence\03. FindLongestSequence.csproj", "{E3995940-D52F-4333-A998-B690D49D21E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. UseBinSearchToFindLargestNumberInArray", "04. UseBinSearchToFindLargestNumberInArray\04. UseBinSearchToFindLargestNumberInArray.csproj", "{75319097-C02F-422B-9267-D40CDF205E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. SortArrayByLengthOfElements", "05. SortArrayByLengthOfElements\05. SortArrayByLengthOfElements.csproj", "{FB12233A-F5D5-4FB7-9BBD-E3D7752617FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. ClassMatrix", "06. ClassMatrix\06. ClassMatrix.csproj", "{5517B6C6-5149-4F4D-A2FD-A9692110D1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. AreaOfEqualElements", "07. AreaOfEqualElements\07. AreaOfEqualElements.csproj", "{6FD248D7-8E3D-405B-B54D-D16F98912D5D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs11
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 01.\u0020FillAndPrintCubeMatrix\\01.\u0020FillAndPrintCubeMatrix.csproj
+		SccProjectName1 = 01.\u0020FillAndPrintCubeMatrix
+		SccLocalPath1 = 01.\u0020FillAndPrintCubeMatrix
+		SccProjectUniqueName2 = 02.\u0020FindSquareWithMaxSum\\02.\u0020FindSquareWithMaxSum.csproj
+		SccProjectName2 = 02.\u0020FindSquareWithMaxSum
+		SccLocalPath2 = 02.\u0020FindSquareWithMaxSum
+		SccProjectUniqueName3 = 03.\u0020FindLongestSequence\\03.\u0020FindLongestSequence.csproj
+		SccProjectName3 = 03.\u0020FindLongestSequence
+		SccLocalPath3 = 03.\u0020FindLongestSequence
+		SccProjectUniqueName4 = 04.\u0020UseBinSearchToFindLargestNumberInArray\\04.\u0020UseBinSearchToFindLargestNumberInArray.csproj
+		SccProjectName4 = 04.\u0020UseBinSearchToFindLargestNumberInArray
+		SccLocalPath4 = 04.\u0020UseBinSearchToFindLargestNumberInArray
+		SccProjectUniqueName5 = 05.\u0020SortArrayByLengthOfElements\\05.\u0020SortArrayByLengthOfElements.csproj
+		SccProjectName5 = 05.\u0020SortArrayByLengthOfElements
+		SccLocalPath5 = 05.\u0020SortArrayByLengthOfElements
+		SccProjectUniqueName6 = 06.\u0020ClassMatrix\\06.\u0020ClassMatrix.csproj
+		SccProjectName6 = 06.\u0020ClassMatrix
+		SccLocalPath6 = 06.\u0020ClassMatrix
+		SccProjectUniqueName7 = 07.\u0020AreaOfEqualElements\\07.\u0020AreaOfEqualElements.csproj
+		SccProjectName7 = 07.\u0020AreaOfEqualElements
+		SccLocalPath7 = 07.\u0020AreaOfEqualElements
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3D06831-11BF-4904-8C4B-9FF3EFB90BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D06831-11BF-4904-8C4B-9FF3EFB90BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D06831-11BF-4904-8C4B-9FF3EFB90BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D06831-11BF-4904-8C4B-9FF3EFB90BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865E86C5-624F-4C0D-BB6E-1D849D2B1FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865E86C5-624F-4C0D-BB6E-1D849D2B1FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865E86C5-624F-4C0D-BB6E-1D849D2B1FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865E86C5-624F-4C0D-BB6E-1D849D2B1FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3995940-D52F-4333-A998-B690D49D21E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3995940-D52F-4333-A998-B690D49D21E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3995940-D52F-4333-A998-B690D49D21E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3995940-D52F-4333-A998-B690D49D21E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75319097-C02F-422B-9267-D40CDF205E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75319097-C02F-422B-9267-D40CDF205E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75319097-C02F-422B-9267-D40CDF205E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75319097-C02F-422B-9267-D40CDF205E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB12233A-F5D5-4FB7-9BBD-E3D7752617FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB12233A-F5D5-4FB7-9BBD-E3D7752617FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB12233A-F5D5-4FB7-9BBD-E3D7752617FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB12233A-F5D5-4FB7-9BBD-E3D7752617FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5517B6C6-5149-4F4D-A2FD-A9692110D1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5517B6C6-5149-4F4D-A2FD-A9692110D1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5517B6C6-5149-4F4D-A2FD-A9692110D1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5517B6C6-5149-4F4D-A2FD-A9692110D1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD248D7-8E3D-405B-B54D-D16F98912D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD248D7-8E3D-405B-B54D-D16F98912D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD248D7-8E3D-405B-B54D-D16F98912D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD248D7-8E3D-405B-B54D-D16F98912D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

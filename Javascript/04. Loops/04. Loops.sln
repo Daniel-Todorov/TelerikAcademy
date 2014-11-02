@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. PrintNumberInRange", "01. PrintNumberInRange", "{B5926FA3-F936-4E58-A427-CC1D0D6043B3}"
+	ProjectSection(SolutionItems) = preProject
+		PrintNumberInRange.html = PrintNumberInRange.html
+		PrintNumberInRange.js = PrintNumberInRange.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. NumberNotDevisibleByThreeAndSeven", "02. NumberNotDevisibleByThreeAndSeven", "{79D6E07A-A039-4A95-9D7F-FD6283118D09}"
+	ProjectSection(SolutionItems) = preProject
+		NumberNotDevisibleByThreeAndSeven.html = NumberNotDevisibleByThreeAndSeven.html
+		NumberNotDevisibleByThreeAndSeven.js = NumberNotDevisibleByThreeAndSeven.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. FindMinAndMax", "03. FindMinAndMax", "{BD45035C-843F-4D40-BBC1-BD3ADDBE0177}"
+	ProjectSection(SolutionItems) = preProject
+		FindMinAndMax.html = FindMinAndMax.html
+		FindMinAndMax.js = FindMinAndMax.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. FindLexicographicallySmallest", "04. FindLexicographicallySmallest", "{909CA66E-FAE0-4339-B528-CBB6CE4D9B00}"
+	ProjectSection(SolutionItems) = preProject
+		FindLexicographicallySmallest.html = FindLexicographicallySmallest.html
+		FindLexicographicallySmallest.js = FindLexicographicallySmallest.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

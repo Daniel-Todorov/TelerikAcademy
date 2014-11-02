@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. ShowRequestInfo", "01. ShowBrowserInfo\01. ShowRequestInfo.csproj", "{CB3A5626-6885-4C82-916E-1051B4B8B444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. AppendTextToSession", "02. AppendTextToSession\02. AppendTextToSession.csproj", "{24AF8B27-5D56-47B7-A374-9F4E576BE9EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. LoginState", "03. LoginState\03. LoginState.csproj", "{825E5475-6216-485A-B86E-8DDA20F493E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. PostBackWithoutViewState", "04. PostBackWithoutViewState\04. PostBackWithoutViewState.csproj", "{8F6B0DC6-6313-4E3A-9724-6C064CC22142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. UsageOfApplicationObjectWithSimpleDrawing", "05. UsageOfApplicationObjectWithSimpleDrawing\05. UsageOfApplicationObjectWithSimpleDrawing.csproj", "{5D4B1A82-1092-4745-817D-8B40866AF0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. StoringNumberOfVisitsInMSSQLServer", "06. StoringNumberOfVisitsInMSSQLServer\06. StoringNumberOfVisitsInMSSQLServer.csproj", "{B0803E7E-F4BD-4EED-8290-22DC38A2C33A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB3A5626-6885-4C82-916E-1051B4B8B444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3A5626-6885-4C82-916E-1051B4B8B444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3A5626-6885-4C82-916E-1051B4B8B444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3A5626-6885-4C82-916E-1051B4B8B444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AF8B27-5D56-47B7-A374-9F4E576BE9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AF8B27-5D56-47B7-A374-9F4E576BE9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AF8B27-5D56-47B7-A374-9F4E576BE9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AF8B27-5D56-47B7-A374-9F4E576BE9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825E5475-6216-485A-B86E-8DDA20F493E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825E5475-6216-485A-B86E-8DDA20F493E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825E5475-6216-485A-B86E-8DDA20F493E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825E5475-6216-485A-B86E-8DDA20F493E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6B0DC6-6313-4E3A-9724-6C064CC22142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6B0DC6-6313-4E3A-9724-6C064CC22142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6B0DC6-6313-4E3A-9724-6C064CC22142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6B0DC6-6313-4E3A-9724-6C064CC22142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4B1A82-1092-4745-817D-8B40866AF0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4B1A82-1092-4745-817D-8B40866AF0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4B1A82-1092-4745-817D-8B40866AF0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4B1A82-1092-4745-817D-8B40866AF0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0803E7E-F4BD-4EED-8290-22DC38A2C33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0803E7E-F4BD-4EED-8290-22DC38A2C33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0803E7E-F4BD-4EED-8290-22DC38A2C33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0803E7E-F4BD-4EED-8290-22DC38A2C33A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

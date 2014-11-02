@@ -1,0 +1,81 @@
+﻿/*!!! NOTE !!!
+I could not find a way to make a:active permanent without using javascript.
+a:active just changes the style of the link when you click the link and then it turns back to original style.
+This is why the style for Новините and Интернет новини is hardcoded.
+Please, if you have find a way to do it without javascript, let me know in the comments.
+In the vertical navigation you can get the underlined text decoration on hovering.*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, Arial;
+    font-weight: bold;
+    color: #76808A;
+}
+
+body {
+    background-color: #1F3741;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.horizontal {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    clear: right;
+    font-size: 1.1em;
+}
+
+    .horizontal li {
+        float: left;
+        list-style: none;
+    }
+
+        .horizontal li a {
+            background-color: #4A5E65;
+            padding: 10px 15px;
+            border-right: 1px solid #1F3741;
+        }
+
+    .horizontal a:hover {
+        text-decoration: underline;
+    }
+
+    .horizontal li:first-child a {
+        color: #E7F6FD;
+        background-color: #1F3741;
+    }
+
+.vertical {
+    clear: left;
+    float: left;
+    display: inline-block;
+    width: 380px;
+    font-size: 1.2em;
+}
+
+    .vertical li {
+        list-style: none;
+    }
+
+        .vertical li a {
+            padding: 10px 15px;
+            padding-right: 20px;
+            display: inline-block;
+            border-bottom: 1px solid #76808A;
+        }
+
+        .vertical li:first-child a {
+            display: inline-block;
+            background-color: #2B999A;
+            color: #E7F6FD;
+            width: 100%;
+        }
+
+        .vertical li:last-child a {
+            border: none;
+        }

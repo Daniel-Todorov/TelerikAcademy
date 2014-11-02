@@ -1,0 +1,7 @@
+Improvements:
+
+1. If you create nonclustered index in Toys table on Type and Price columns, that would speed up the searchign for the first query in Problem 3 dramatically.
+
+2. If you create nonclustered index in Toys table on AgeRange including Manufacturer, that would boost the search performance to great extend.
+
+3. If you create nonclustered index in ToysCategory on CategoryID including ToyId, the performance of the searching will be much faster.

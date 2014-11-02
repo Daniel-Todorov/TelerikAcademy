@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Problem", "01. Problem", "{4B70EC9A-141B-43E7-B899-B4650AF4352D}"
+	ProjectSection(SolutionItems) = preProject
+		01. Problem\template\index.html = 01. Problem\template\index.html
+		01. Problem\template\style.css = 01. Problem\template\style.css
+		01. Problem\template\style.less = 01. Problem\template\style.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Problem", "02. Problem", "{B5EE0703-4CA5-42F8-A21C-A7A287A52F3C}"
+	ProjectSection(SolutionItems) = preProject
+		02. Problem\template\index.html = 02. Problem\template\index.html
+		02. Problem\template\style.css = 02. Problem\template\style.css
+		02. Problem\template\style.less = 02. Problem\template\style.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Problem", "03. Problem", "{3F31CD33-45B9-4DC5-8780-99F092A5B752}"
+	ProjectSection(SolutionItems) = preProject
+		03. Problem\template\index.html = 03. Problem\template\index.html
+		03. Problem\template\jquery.min.js = 03. Problem\template\jquery.min.js
+		03. Problem\template\main.js = 03. Problem\template\main.js
+		03. Problem\template\style.css = 03. Problem\template\style.css
+		03. Problem\template\style.less = 03. Problem\template\style.less
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

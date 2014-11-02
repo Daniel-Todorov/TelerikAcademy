@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Header.Master.cs" Inherits="_02.IntenationalCompanySite.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h1>
+                <img src="/Content/logo.gif" />
+                Coders forever <sup>TM</sup>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="/Default.aspx">USA</a></li>
+                    <li><a href="/BulgarianPages/HomeBg.aspx">България</a></li>
+                    <li><a href="/SpanishPages/HomeSp.aspx">España</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            <asp:ContentPlaceHolder ID="ConventNavigation" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </aside>
+    <section>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </section>
+    </form>
+</body>
+</html>

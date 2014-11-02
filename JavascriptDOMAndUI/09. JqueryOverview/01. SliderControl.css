@@ -1,0 +1,9 @@
+﻿.slide-item {
+    display: none;
+    width: 200px;
+    height: 100px;
+}
+
+.slide-item.current-item{
+    display: inline-block;
+}

@@ -1,0 +1,15 @@
+extends shared/layout
+
+block main-content
+    h1 Welcome to MY File Upload System :D
+    hr
+    table(border="1")
+        thead
+            tr
+                th Registered Users
+                th Uploaded Files
+        tbody
+            each user in users
+                tr
+                    td= user.username
+                    td= user.points

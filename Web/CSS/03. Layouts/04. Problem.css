@@ -1,0 +1,177 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Tahoma, Arial;
+    font-size: 0.8em;
+}
+
+section {
+    display: inline-block;
+    /*border: 1px solid green;*/
+}
+
+a {
+    color: #c8262e;
+}
+
+h1 {
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+ul {
+    margin: 1px;
+    margin-top: 15px;
+}
+
+    ul li:first-child {
+        color: #c8262e;
+        font-weight: bold;
+    }
+
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 120px;
+    height: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    background-color: #7D7D7D;
+    color: white;
+    font-size: 1.2em;
+    padding-left: 4px;
+}
+
+#container {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 1px;
+    background-color: #F1F1F1;
+}
+
+#main, #right {
+    background-color: white;
+}
+
+#main {
+    float: right;
+    width: 65%;
+    border: 1px solid #7D7D7D;
+    padding: 4px;
+    margin: 1px;
+}
+
+    #main section {
+        width: 100%;
+        padding-right: 4px;
+    }
+
+        #main section header {
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        #main section img {
+            float: left;
+            padding: 8px 16px 32px 0px;
+        }
+
+        #main section:first-of-type section p {
+            font-weight: bold;
+        }
+
+            #main section:first-of-type section p a {
+                font-weight: normal;
+            }
+
+    #main p {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    #main footer {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-top: 1px solid #7D7D7D;
+        border-bottom: 1px solid #7D7D7D;
+        margin-top: 4px;
+        margin-bottom: 36px;
+    }
+
+#mainHeader {
+    border-bottom: 1px solid #7D7D7D;
+}
+
+#right {
+    float: right;
+    width: 17%;
+    text-align: center;
+    margin: 1px;
+    padding-right: 2px;
+}
+
+    #right > section {
+        border: 1px solid #7D7D7D;
+        width: 100%;
+        margin-bottom: 1px;
+    }
+
+    #right form {
+        padding-top: 8px;
+        padding-bottom: 4px;
+    }
+
+    #right input[type=text] {
+        width: 120px;
+        height: 20px;
+        border: 1px solid #6075ad;
+    }
+
+    #right input[type=submit] {
+        font-weight: bold;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #293172;
+        background-color: white;
+        border-radius: 4px;
+    }
+
+    #right section p:last-of-type {
+        padding-bottom: 8px;
+    }
+
+    #right section p:first-of-type {
+        padding-top: 4px;
+    }
+
+    #right button {
+        background-color: #d0ecfa;
+        border: 1px solid #6ac7f6;
+        width: 120px;
+        height: 35px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        color: #0ff2cf;
+        font-size: 1.1em;
+    }
+
+
+.leftArrow {
+    float: left;
+}
+
+.rightArrow {
+    float: right;
+}

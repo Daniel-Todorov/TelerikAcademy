@@ -1,0 +1,12 @@
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\02. ShowSignOfProduct\bin\Release\_02.ShowSignOfProduct.exe
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\02. ShowSignOfProduct\bin\Release\_02.ShowSignOfProduct.pdb
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\02. ShowSignOfProduct\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\02. ShowSignOfProduct\obj\x86\Release\_02.ShowSignOfProduct.exe
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\02. ShowSignOfProduct\obj\x86\Release\_02.ShowSignOfProduct.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\02. ShowSignOfProduct\obj\x86\Release\_02.ShowSignOfProduct.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\02. ShowSignOfProduct\obj\x86\Release\_02.ShowSignOfProduct.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\02. ShowSignOfProduct\bin\Release\_02.ShowSignOfProduct.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\02. ShowSignOfProduct\bin\Release\_02.ShowSignOfProduct.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\02. ShowSignOfProduct\obj\x86\Release\02. ShowSignOfProduct.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Todorov\Desktop\C#\C# - Part 1\05. ConsitionalStatements\02. ShowSignOfProduct\obj\x86\Release\_02.ShowSignOfProduct.exe
+C:\Users\Daniel Todorov\Desktop\C#\C# - Part 1\05. ConsitionalStatements\02. ShowSignOfProduct\obj\x86\Release\_02.ShowSignOfProduct.pdb

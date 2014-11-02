@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<!--Write a script that selects all the div nodes that are
+directly inside other div elements
+ Create a function using querySelectorAll()
+ Create a function using getElementsByTagName()-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>01. Problem</title>
+
+</head>
+<body>
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div></div>
+    <p>
+        <div></div>
+    </p>
+    <script>
+
+    getDivsByQuery()
+    getDivsByTag()
+
+    function getDivsByQuery() {
+        var divsInsideDivs = document.querySelectorAll('div'),
+            numberOfDivs = divsInsideDivs.length,
+            result = [];
+
+        for (var i = 0; i < numberOfDivs; i++) {
+            if (divsInsideDivs[i].parentElement.nodeName === "DIV") {
+                result.push(divsInsideDivs[i]);
+            }
+        }
+
+        console.dir(result);
+    }
+
+    function getDivsByTag() {
+        var divsInsideDivs = document.getElementsByTagName('div'),
+            numberOfDivs = divsInsideDivs.length,
+            result = [];
+
+        for (var i = 0; i < numberOfDivs; i++) {
+            if (divsInsideDivs[i].parentElement.nodeName === "DIV") {
+                result.push(divsInsideDivs[i]);
+            }
+        }
+
+        console.dir(result);
+    }
+
+    </script>
+
+</body>
+</html>

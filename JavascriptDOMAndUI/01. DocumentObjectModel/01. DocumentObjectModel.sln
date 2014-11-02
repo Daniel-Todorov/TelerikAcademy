@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFD54968-50FB-4EE0-8FBA-44744CB9AD2A}"
+	ProjectSection(SolutionItems) = preProject
+		01. SelectDivsInsideDivs.html = 01. SelectDivsInsideDivs.html
+		02. GetValueOfTextInput.html = 02. GetValueOfTextInput.html
+		03. GetColorAndChangeBackground.html = 03. GetColorAndChangeBackground.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

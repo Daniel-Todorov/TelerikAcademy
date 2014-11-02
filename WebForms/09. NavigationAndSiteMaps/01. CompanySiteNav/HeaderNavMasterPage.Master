@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HeaderNavMasterPage.master.cs" Inherits="_01.CompanySiteNav.HeaderNavMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Company</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <nav>
+                <asp:Menu runat="server" ID="MenuHeader" DataSourceID="SiteMapDataSource" StaticDisplayLevels="2" Orientation="Vertical">
+                </asp:Menu>
+                <asp:SiteMapDataSource runat="server" ID="SiteMapDataSource"></asp:SiteMapDataSource>
+            </nav>
+        </header>
+        <hr />
+        <aside>
+            <asp:SiteMapPath runat="server" ID="SiteBreadcrumb"></asp:SiteMapPath>
+        </aside>
+        <hr />
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

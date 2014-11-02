@@ -1,0 +1,197 @@
+﻿body {
+    font-family: segoe ui, consolas;
+    font-size: 12px;
+}
+
+.main {
+    background: #B1CBE4;
+    background-image:url(calculator.png);
+    width: 420px;
+    height: 385px;
+    border: 1px solid #818185;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.first {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 408px;
+    height: 350px;
+    border: 1px solid #A5A5A5;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 1px #FFFFFF inset;
+    background: #d9e4f1;
+}
+
+.calcmenu {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 408px;
+    height: 12px;
+    border-bottom: 1px solid #A5A5A5;
+    background: -webkit-linear-gradient(#eff2f9, #dae0f1);
+    background: -moz-linear-gradient(#eff2f9, #dae0f1);
+    background: -o-linear-gradient(#eff2f9, #dae0f1);
+    background: linear-gradient(#eff2f9, #dae0f1);
+    background-color: #dae0f1;
+    color: #4b4b4b;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+
+li.menu-item {
+    float: left;
+    width: 35px;
+    text-align: center;
+    position: relative;
+    top: -7px;
+}
+
+    li.menu-item:hover {
+        border: 1px solid #cccccc;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    li.menu-item:first-letter {
+        text-decoration: underline;
+    }
+
+.digitsarea {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 6px;
+    height: 45px;
+    width: 395px;
+    background: -webkit-linear-gradient(#e6effa, #fcfdfe);
+    background: -moz-linear-gradient(#e6effa, #fcfdfe);
+    background: -o-linear-gradient(#e6effa, #fcfdfe);
+    background: linear-gradient(#e6effa, #fcfdfe);
+    background-color: #e6effa;
+    text-align: right;
+    line-height: 45px;
+    font-size: 24px;
+    font-family: consolas;
+    border: 1px solid #A5A5A5;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 1px #FFFFFF inset;
+}
+
+.binary {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 6px;
+    height: 65px;
+    width: 395px;
+    font-family: consolas;
+    color: #1e395b;
+    border: 1px solid #A5A5A5;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 1px #FFFFFF inset;
+}
+
+.binarytabletd {
+    width: 63px;
+    vertical-align: top;
+}
+
+.greydigits {
+    color: #969697;
+}
+
+.hex {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 6px;
+    height: 90px;
+    width: 75px;
+    font-family: consolas;
+    font-weight: bold;
+    color: #1e395b;
+    border: 1px solid #A5A5A5;
+    border-radius: 2px;
+}
+
+.qword {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 6px;
+    height: 90px;
+    width: 75px;
+    font-family: consolas;
+    font-weight: bold;
+    color: #1e395b;
+    border: 1px solid #A5A5A5;
+    border-radius: 2px;
+}
+
+.buttonstable {
+    float: right;
+    height: 186px;
+    width: 308px;
+    margin-top: -190px;
+    margin-right: 6px;
+}
+
+button {
+    height: 29px;
+    width: 36px;
+    font-family: consolas;
+    color: #1e395b;
+    border: 1px solid #A5A5A5;
+    border-radius: 2px;
+}
+
+#zerobutton {
+    width: 70px;
+}
+
+#equalsbutton {
+    height: 60px;
+}
+
+.disabledbutton {
+    background: #d9e4f1;
+}
+
+.lettersnumbers {
+    font-size: 17px;
+}
+
+.numbersonly {
+    background: -webkit-linear-gradient(#f4f9fc, #d5e0ee);
+    background: -moz-linear-gradient(#f4f9fc, #d5e0ee);
+    background: -o-linear-gradient(#f4f9fc, #d5e0ee);
+    background: linear-gradient(#f4f9fc, #d5e0ee);
+    background-color: #f4f9fc;
+}
+
+.mbuttons {
+    background: #d4e0ed;
+    box-shadow: 0 0 1px 1px #FFFFFF inset;
+}
+
+.otherbuttons {
+    background: -webkit-linear-gradient(#ecf2f8, #d9e4f1);
+    background: -moz-linear-gradient(#ecf2f8, #d9e4f1);
+    background: -o-linear-gradient(#ecf2f8, #d9e4f1);
+    background: linear-gradient(#ecf2f8, #d9e4f1);
+    background-color: #d9e4f1;
+    box-shadow: 0 0 1px 1px #FFFFFF inset;
+}
+
+.activebutton:hover {
+    background: -webkit-linear-gradient(#ffe7cc, #ffd875);
+    background: -moz-linear-gradient(#ffe7cc, #ffd875);
+    background: -o-linear-gradient(#ffe7cc, #ffd875);
+    background: linear-gradient(#ffe7cc, #ffd875);
+    background-color: #ffd875;
+}

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<!--Create a function that gets the value of <input type="text"> ands prints its value to the console-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>02. Problem</title>
+</head>
+<body>
+    <input type="text" />
+    <button onclick="printValueInConsole()">Print Value in the Console</button>
+    
+    <script>
+
+        function printValueInConsole() {
+            var value = document.querySelector('input[type=text]').value;
+
+            console.dir(value);
+        }
+
+    </script>
+</body>
+</html>

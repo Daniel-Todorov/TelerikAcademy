@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/HeaderNavMasterPage.Master" AutoEventWireup="true" CodeBehind="MasterOffices.master.cs" Inherits="_01.CompanySiteNav.MasterOffices" %>
+
+<asp:Content ID="ContentOfficesPlaceHolder" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderOffices" runat="server">
+    </asp:ContentPlaceHolder>
+    <aside>
+        <asp:Menu ID="MenuOffices" runat="server" DataSourceID="SiteMapDataSource" Orientation="Horizontal" StaticDisplayLevels="2"></asp:Menu>
+    </aside>
+
+    <asp:SiteMapDataSource runat="server" ID="SiteMapDataSource" StartFromCurrentNode="true"></asp:SiteMapDataSource>
+</asp:Content>

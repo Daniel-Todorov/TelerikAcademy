@@ -1,0 +1,24 @@
+extends shared/layout
+
+block main-content
+    h1 Welcome to Academy Events System :D
+    hr
+    table(border="1")
+        thead
+            tr
+                th(colspan="3") Passed Events
+            tr
+                th Event
+                th Organization Points
+                th Venue Points
+        tbody
+            if passedEvents.length > 0
+                each event in passedEvents
+                    tr
+                        td
+                            a(href='/events/'+event._id)= event.title
+                        td= event.organizationPoints
+                        td= event.venuePoints
+            else
+                tr
+                    td(colspan=3) No events have passed sofar...

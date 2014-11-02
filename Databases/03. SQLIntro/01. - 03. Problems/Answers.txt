@@ -1,0 +1,29 @@
+
+
+Problem 1:
+
+What is SQl?
+- SQL is a declarative language for query and manipulation of relational data.
+
+What is DML?
+- DML is a part of the SQL language that deals with the CRUD operations on records in the database - Create, Read, Update, Delete.
+
+What is DDL?
+- DDL is another partof the SQL language that deals with creating, manipulating and deleting the database schemas as well as managing the permissions of the various users.
+
+Recite the most important SQL commands.
+- INSERT, SELECT, UPDATE, DELETE, CREATE, ALTER, DROP, GRANT, REVOKE.
+
+
+
+Problem 2:
+
+What is Transact-SQL (T-SQL)?
+- T-SQL is an extension to the standard SQL language used in MS SQL Server.
+
+
+
+Problem 3:
+
+Start SQL Management Studio and connect to the database TelerikAcademy. Examine the major tables in the "TelerikAcademy" database.
+- You have to trust me on this one :P

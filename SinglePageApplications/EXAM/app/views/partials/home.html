@@ -1,0 +1,68 @@
+<div ng-controller="HomeController">
+	<header>
+		<h1>Welcome to trip exchange</h1>
+		<h2>Find your way home!</h2>
+	</header>
+	<section class="statistics">
+		<table border="1">
+			<thead>
+			<tr>
+				<th>Trips</th>
+				<th>Finished trips</th>
+				<th>Users</th>
+				<th>Drivers</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>{{stats.trips}}</td>
+				<td>{{stats.finishedTrips}}</td>
+				<td>{{stats.users}}</td>
+				<td>{{stats.drivers}}</td>
+			</tr>
+			</tbody>
+		</table>
+	</section>
+	<section class="latest-info">
+		<table border="1">
+			<thead>
+			<tr>
+				<th colspan="4">Lates trips</th>
+			</tr>
+			<tr>
+				<th>Driver</th>
+				<th>From</th>
+				<th>To</th>
+				<th>Departure Time</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr ng-repeat="trip in latestTenTrips">
+				<td><a href="#/trips/{{trip.id}}">{{trip.driverName}}</a></td>
+				<td>{{trip.from}}</td>
+				<td>{{trip.to}}</td>
+				<td>{{trip.departureDate | transformDate}}</td>
+			</tr>
+			</tbody>
+		</table>
+		<table border="1">
+			<thead>
+			<tr>
+				<th colspan="3">Lates drivers</th>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<th>Upcoming Trips</th>
+				<th>Total Trips</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr ng-repeat="driver in latestTenDrivers">
+				<td><a href="#/drivers/{{driver.id}}">{{driver.name}}</a></td>
+				<td>{{driver.numberOfUpcomingTrips}}</td>
+				<td>{{driver.numberOfTotalTrips}}</td>
+			</tr>
+			</tbody>
+		</table>
+	</section>
+</div>

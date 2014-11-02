@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>01. Problem</title>
+    <script src="require.js" data-main="mainScript.js"></script>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+    <script id="person-template" type="text/x-handlebars-template">
+        {{#each people}}<div class="person-item" id="person-item-{{id}}">
+            <strong class="person-name">{{name}}</strong><p class="person-age">{{age}}</p>
+            <img src="{{avatarUrl}}" width="100" />
+        </div>{{/each}}
+    </script>
+</body>
+</html>

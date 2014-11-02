@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ProfilePageMaster.master.cs" Inherits="_01.ProfilePages.ProfilePageMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>User Profile</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h1>Pesho Goshev</h1>
+        </header>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="Default.aspx">Personal info</a></li>
+                    <li><a href="Friends.aspx">Friends</a></li>
+                    <li><a href="AdditionalInfo.aspx">Additional info</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+    </form>
+</body>
+</html>

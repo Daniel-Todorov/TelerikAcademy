@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+body,
+h1,
+form,
+label,
+input,
+table,
+td,
+tr,
+footer,
+header,
+section {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: greenyellow;
+  font-family: 'Lobster Two', cursive;
+}
+/* -------------------------
+			HEADER
+-------------------------- */
+header h1 {
+  margin: 20px 20px 40px;
+  font-size: 3rem;
+  text-align: center;
+  color: yellowgreen;
+}
+header h1 .game-name {
+  text-shadow: 0 0 4px red;
+  color: green;
+}
+section {
+  text-align: center;
+}
+section form {
+  display: inline-block;
+}
+section form label {
+  display: block;
+  padding: 10px 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: orange;
+}
+section form input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 5px 10px;
+  background-color: palegreen;
+  border-color: darkorange;
+  border-radius: 20px;
+  outline: none;
+  text-align: center;
+  font-size: 1.2rem;
+  color: darkorange;
+}
+section form input:focus {
+  background-color: yellow;
+}
+section form button {
+  padding: 15px 30px;
+  margin: 0 0 40px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: darkgreen;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: yellowgreen;
+}
+section form button:active {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+section #board-container table {
+  display: inline-table;
+  margin: 0 0 50px;
+  border: 2px solid darkred;
+  background-color: darkorange;
+  color: darkred;
+}
+section #board-container table th {
+  padding: 10px 20px;
+  font-size: 2rem;
+}
+section #board-container table td {
+  padding: 5px;
+}
+section #board-container table td:nth-of-type(2) {
+  text-align: left;
+}
+section #board-container table td:nth-of-type(3) {
+  text-align: left;
+}
+section #board-container table td img {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  border: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section #board-container table td img.ram-image {
+  background-image: url('../images/ram.png');
+}
+section #board-container table td img.sheep-image {
+  background-image: url('../images/sheep.png');
+}
+section #board-container table td img.hyena-image {
+  background-image: url('../images/hyena.png');
+}
+footer {
+  padding: 5px 20px;
+  text-align: right;
+  font-size: 0.8rem;
+  color: lightgray;
+}

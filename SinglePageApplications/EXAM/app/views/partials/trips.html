@@ -1,0 +1,62 @@
+<div ng-controller="TripsController">
+	<header>
+		<h1>Trips</h1>
+	</header>
+	<section ng-show="identity.isAuthenticated()">
+		<hr>
+		<a href="#/trips/create">Create</a>
+		<hr>
+		<form name="sorting-form">
+			<label for="attribute">Sort</label>
+			<select id="attribute" ng-model="sort.attribute" ng-options="attribute.name for attribute in attributes">
+			</select>
+			<br>
+			<label for="order">Order</label>
+			<select id="order" ng-model="sort.order" ng-options="order.name for order in orders">
+			</select>
+			<br>
+			<label for="from">From</label>
+			<select id="from" ng-model="sort.from" ng-options="city for city in cities">
+			</select>
+			<br>
+			<label for="to">To</label>
+			<select id="to" ng-model="sort.to" ng-options="city for city in cities">
+			</select>
+			<br>
+			<label for="include-finished">Include finished</label>
+			<input id="include-finished" type="checkbox" checked="checked" ng-model="sort.includeFinished">
+			<br>
+			<label for="only-mine">Only mine</label>
+			<input id="only-mine" type="checkbox" ng-model="sort.onlyMine">
+			<br>
+			<button ng-click="getSortOptions(sort)">Filter</button>
+		</form>
+	</section>
+	<hr>
+	<section>
+		<div class="paging" ng-show="identity.isAuthenticated()">
+			<span>Pages: </span>
+			<input type="number" ng-model="selectedPage" ng-change="getTripsOnPage(selectedPage)" min="1" max="{{maxPageNumber}}">
+		</div>
+		<table>
+			<thead>
+			<tr>
+				<th>Driver</th>
+				<th>From</th>
+				<th>To</th>
+				<th>Departure Time</th>
+				<th ng-show="identity.isAuthenticated()">Is Mine</th>
+			</tr>
+			</thead>
+			<tbody >
+			<tr ng-repeat="trip in latestTenTrips">
+				<td><a href="#/trips/{{trip.id}}">{{trip.driverName}}</a></td>
+				<td>{{trip.from}}</td>
+				<td>{{trip.to}}</td>
+				<td>{{trip.departureDate | transformDate}}</td>
+				<td ng-show="identity.isAuthenticated()"><img src="{{trip.isMine | transformIsMine}}"></td>
+			</tr>
+			</tbody>
+		</table>
+	</section>
+</div>

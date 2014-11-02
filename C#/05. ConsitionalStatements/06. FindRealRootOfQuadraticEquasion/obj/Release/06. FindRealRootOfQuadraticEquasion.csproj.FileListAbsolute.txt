@@ -1,0 +1,1 @@
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\06. FindRealRootOfQuadraticEquasion\bin\Release\_06.FindRealRootOfQuadraticEquasion.exe.config

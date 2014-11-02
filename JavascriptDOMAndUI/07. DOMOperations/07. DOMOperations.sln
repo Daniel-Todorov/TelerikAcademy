@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08ACAA42-BFC2-42FD-9F29-7B2A7E9EA8C6}"
+	ProjectSection(SolutionItems) = preProject
+		01. RandomDivs.html = 01. RandomDivs.html
+		01. RandomDivs.js = 01. RandomDivs.js
+		02. RotatingDivs.html = 02. RotatingDivs.html
+		02. RotatingDivs.js = 02. RotatingDivs.js
+		03. ColorChanger.html = 03. ColorChanger.html
+		03. ColorChanger.js = 03. ColorChanger.js
+		04. TagCloud.html = 04. TagCloud.html
+		04. TagCloud.js = 04. TagCloud.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

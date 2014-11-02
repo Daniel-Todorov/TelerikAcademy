@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. WhatXmlStandsFor", "01. WhatXmlStandsFor\01. WhatXmlStandsFor.csproj", "{F8C4CE61-C529-4CD3-A924-B6674369D971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. StudentsXml", "02. StudentsXml\02. StudentsXml.csproj", "{3612C943-920F-4C65-9A35-CB640917C2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. WhatAreNamespacesInXml", "03. WhatAreNamespacesInXml\03. WhatAreNamespacesInXml.csproj", "{89D397FF-9636-4D79-8476-FC9800BB9448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. ReadMoreAboutUriUrnUrl", "04. ReadMoreAboutUriUrnUrl\04. ReadMoreAboutUriUrnUrl.csproj", "{C0832E71-9CDE-4871-817D-7BF4AB948F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. AddDefaultNamespaceForXml", "05. AddDefaultNamespaceForXml\05. AddDefaultNamespaceForXml.csproj", "{14E032D9-7BC3-492A-B01A-E28E864BFC81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. CreateXsdSchema", "06. CreateXsdSchema\06. CreateXsdSchema.csproj", "{1C6E81D8-380F-41C0-B1C6-C47C24F555A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. CreateXls", "07. CreateXls\07. CreateXls.csproj", "{434A2B7C-F000-48E8-AC84-FA43B3049862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8C4CE61-C529-4CD3-A924-B6674369D971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C4CE61-C529-4CD3-A924-B6674369D971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C4CE61-C529-4CD3-A924-B6674369D971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C4CE61-C529-4CD3-A924-B6674369D971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3612C943-920F-4C65-9A35-CB640917C2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3612C943-920F-4C65-9A35-CB640917C2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3612C943-920F-4C65-9A35-CB640917C2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3612C943-920F-4C65-9A35-CB640917C2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D397FF-9636-4D79-8476-FC9800BB9448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D397FF-9636-4D79-8476-FC9800BB9448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D397FF-9636-4D79-8476-FC9800BB9448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D397FF-9636-4D79-8476-FC9800BB9448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0832E71-9CDE-4871-817D-7BF4AB948F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0832E71-9CDE-4871-817D-7BF4AB948F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0832E71-9CDE-4871-817D-7BF4AB948F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0832E71-9CDE-4871-817D-7BF4AB948F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E032D9-7BC3-492A-B01A-E28E864BFC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E032D9-7BC3-492A-B01A-E28E864BFC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E032D9-7BC3-492A-B01A-E28E864BFC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E032D9-7BC3-492A-B01A-E28E864BFC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6E81D8-380F-41C0-B1C6-C47C24F555A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6E81D8-380F-41C0-B1C6-C47C24F555A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6E81D8-380F-41C0-B1C6-C47C24F555A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6E81D8-380F-41C0-B1C6-C47C24F555A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434A2B7C-F000-48E8-AC84-FA43B3049862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434A2B7C-F000-48E8-AC84-FA43B3049862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434A2B7C-F000-48E8-AC84-FA43B3049862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434A2B7C-F000-48E8-AC84-FA43B3049862}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

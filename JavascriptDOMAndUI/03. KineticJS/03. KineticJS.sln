@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A358B46-C91A-4D51-A7E2-79B20CAA3249}"
+	ProjectSection(SolutionItems) = preProject
+		02. FamilyTree.html = 02. FamilyTree.html
+		02. FamilyTree.js = 02. FamilyTree.js
+		kinetic-js.js = kinetic-js.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

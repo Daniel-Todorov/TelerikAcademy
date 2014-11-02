@@ -1,0 +1,6 @@
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\09. CheckSumOfSubset\bin\Release\_09.CheckSumOfSubset.exe.config
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\09. CheckSumOfSubset\bin\Release\_09.CheckSumOfSubset.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\09. CheckSumOfSubset\bin\Release\_09.CheckSumOfSubset.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\09. CheckSumOfSubset\obj\Release\09. CheckSumOfSubset.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\09. CheckSumOfSubset\obj\Release\_09.CheckSumOfSubset.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\09. CheckSumOfSubset\obj\Release\_09.CheckSumOfSubset.pdb

@@ -1,0 +1,5 @@
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\ClassRock2\bin\Release\ClassRock2.exe
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\ClassRock2\bin\Release\ClassRock2.pdb
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\ClassRock2\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\ClassRock2\obj\x86\Release\ClassRock2.exe
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\ClassRock2\obj\x86\Release\ClassRock2.pdb

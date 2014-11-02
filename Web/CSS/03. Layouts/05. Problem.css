@@ -1,0 +1,105 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, Arial;
+}
+
+section.main {
+    border: 2px solid black;
+    display: inline-block;
+}
+
+section.cells {
+    float: left;
+    width: 490px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 8px;
+    padding-bottom: 8px;
+}
+
+section.selectors {
+    float: left;
+    font-size: 1.5em;
+    width: 250px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 4px;
+    text-align: center;
+}
+
+nav {
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 8px;
+}
+
+fieldset {
+    position: relative;
+    padding: 4px;
+    display: inline-block;
+    border-color: black;
+    font-size: 18px;
+    margin: 4px;
+    float: left;
+}
+
+legend {
+    text-align: center;
+    padding: 4px;
+}
+
+img {
+    float: left;
+    display: inline-block;
+}
+
+a {
+    font-size: 1.5em;
+    color: #0ed8c5;
+}
+
+fieldset div {
+    display: block;
+}
+
+label, span, input[type=range] {
+    display: block;
+}
+
+label {
+    float: left;
+}
+
+input[type=range] {
+    width: 75%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+.ssd {
+    float: left;
+    clear: right;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.price {
+    clear: left;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.processor {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}

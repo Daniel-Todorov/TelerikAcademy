@@ -1,0 +1,50 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+    width: 1400px;
+    }
+
+img {
+     width: 200px;
+     height: 180px;
+}
+
+label {
+    @extend img;
+    margin: 15px 3px 20px 3px;
+    display: block;
+    float: left;
+
+    &:first-of-type {
+        margin-left: 30px;
+    }
+
+    &:last-of-type {
+        margin-right: 30px;
+    }
+}
+
+input[type="image"] {
+    height: 0;
+    width: 0;
+
+    &:focus {
+        margin: 3px 30px 3px 30px;
+        height:540px;
+        width:600px;
+        position: fixed;
+        top: 220px;
+        left: 0;
+    }
+}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}

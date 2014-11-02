@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Problem", "01. Problem", "{792558EB-7392-4190-8D43-C90C1A668975}"
+	ProjectSection(SolutionItems) = preProject
+		01. Problem.css = 01. Problem.css
+		01. Problem.html = 01. Problem.html
+		01. Problem.scss = 01. Problem.scss
+		images\li-dot.png = images\li-dot.png
+		images\Sample Logo.png = images\Sample Logo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Problem", "02. Problem", "{59EEB4E0-8FF1-4935-B76C-53363F3422CC}"
+	ProjectSection(SolutionItems) = preProject
+		02. Problem.css = 02. Problem.css
+		02. Problem.html = 02. Problem.html
+		02. Problem.scss = 02. Problem.scss
+		images\kitty.png = images\kitty.png
+		images\monkey.png = images\monkey.png
+		images\sleepingDog.png = images\sleepingDog.png
+		images\tiger.png = images\tiger.png
+		images\twoDogs.png = images\twoDogs.png
+		images\whiteDog.png = images\whiteDog.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>04. Problem</title>
+    <link rel="stylesheet" type="text/css" href="04. Problem.css" />
+</head>
+<body>
+
+    <div class="main">
+        <div class="first">
+            <div class="calcmenu">
+                <ul class="menu">
+                    <li class="menu-item">View</li>
+                    <li class="menu-item">Edit</li>
+                    <li class="menu-item">Help</li>
+                </ul>
+            </div>
+            <div class="digitsarea">
+                8854455
+            </div>
+            <div class="binary">
+                <table>
+                    <tr>
+                        <td class="binarytabletd">
+                            0000<br />
+                            <span class="greydigits">63</span><br />
+                            0000<br />
+                            <span class="greydigits">31</span>
+                        </td>
+                        <td class="binarytabletd">
+                            0000<br />
+                            <br />
+                            0000<br />
+
+                        </td>
+                        <td class="binarytabletd">
+                            0000<br />
+                            <br />
+                            1000<br />
+
+                        </td>
+                        <td class="binarytabletd">
+                            0000<br />
+                            <br />
+                            0111<br />
+
+                        </td>
+                        <td class="binarytabletd">
+                            0000<br />
+                            <span class="greydigits">47</span><br />
+                            0001<br />
+                            <span class="greydigits">15</span>
+                        </td>
+                        <td class="binarytabletd">
+                            0000<br />
+                            <br />
+                            1011<br />
+
+                        </td>
+                        <td class="binarytabletd">
+                            0000<br />
+                            <br />
+                            1011<br />
+
+                        </td>
+                        <td class="binarytabletd">
+                            0000<br />
+                            <span class="greydigits">32</span><br />
+                            0111<br />
+                            <span class="greydigits">0</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="hex">
+                <input type="radio" name="1" />Hex<br />
+                <input type="radio" name="1" checked="checked" />Dec<br />
+                <input type="radio" name="1" />Oct<br />
+                <input type="radio" name="1" />Bin<br />
+            </div>
+            <div class="qword">
+                <input type="radio" name="2" checked="checked" />Qword<br />
+                <input type="radio" name="2" />Dword<br />
+                <input type="radio" name="2" />Word<br />
+                <input type="radio" name="2" />Byte<br />
+            </div>
+            <div>
+                <table cellpadding="1" cellspacing="1" class="buttonstable">
+                    <tr>
+                        <td><button class="disabledbutton"></button></td>
+                        <td><button class="mbuttons otherbuttons activebutton">Mod</button></td>
+                        <td><button class="disabledbutton lettersnumbers">A</button></td>
+                        <td><button class="mbuttons activebutton">MC</button></td>
+                        <td><button class="mbuttons activebutton">MR</button></td>
+                        <td><button class="mbuttons activebutton">MS</button></td>
+                        <td><button class="mbuttons activebutton">M&#43;</button></td>
+                        <td><button class="mbuttons activebutton">M&#45;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="otherbuttons activebutton">&#40;</button></td>
+                        <td><button class="otherbuttons activebutton">&#41;</button></td>
+                        <td><button class="disabledbutton lettersnumbers">B</button></td>
+                        <td><button class="otherbuttons activebutton">&larr;</button></td>
+                        <td><button class="otherbuttons activebutton">CE</button></td>
+                        <td><button class="otherbuttons activebutton">C</button></td>
+                        <td><button class="otherbuttons activebutton">&plusmn;</button></td>
+                        <td><button class="disabledbutton">&radic;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="otherbuttons activebutton">RoL</button></td>
+                        <td><button class="otherbuttons activebutton">RoR</button></td>
+                        <td><button class="disabledbutton lettersnumbers">C</button></td>
+                        <td><button class="lettersnumbers numbersonly activebutton">7</button></td>
+                        <td><button class="lettersnumbers numbersonly activebutton">8</button></td>
+                        <td><button class="lettersnumbers numbersonly activebutton">9</button></td>
+                        <td><button class="otherbuttons activebutton">&frasl;</button></td>
+                        <td><button class="disabledbutton">&#37;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="otherbuttons activebutton">Or</button></td>
+                        <td><button class="otherbuttons activebutton">Xor</button></td>
+                        <td><button class="disabledbutton lettersnumbers">D</button></td>
+                        <td><button class="lettersnumbers numbersonly activebutton">4</button></td>
+                        <td><button class="lettersnumbers numbersonly activebutton">5</button></td>
+                        <td><button class="lettersnumbers numbersonly activebutton">6</button></td>
+                        <td><button class="otherbuttons activebutton">&#42;</button></td>
+                        <td><button class="disabledbutton">1&#47;x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="otherbuttons activebutton">Lsh</button></td>
+                        <td><button class="otherbuttons activebutton">Rsh</button></td>
+                        <td><button class="disabledbutton lettersnumbers">E</button></td>
+                        <td><button class="lettersnumbers numbersonly activebutton">1</button></td>
+                        <td><button class="lettersnumbers numbersonly activebutton">2</button></td>
+                        <td><button class="lettersnumbers numbersonly activebutton">3</button></td>
+                        <td><button class="otherbuttons activebutton">&#45;</button></td>
+                        <td rowspan="2"><button class="otherbuttons activebutton" id="equalsbutton">&#61;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="otherbuttons activebutton">Not</button></td>
+                        <td><button class="otherbuttons activebutton">And</button></td>
+                        <td><button class="disabledbutton lettersnumbers">F</button></td>
+                        <td colspan="2"><button class="lettersnumbers numbersonly activebutton" id="zerobutton">0</button></td>
+                        <td><button class="disabledbutton">.</button></td>
+                        <td><button class="otherbuttons activebutton">&#43;</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

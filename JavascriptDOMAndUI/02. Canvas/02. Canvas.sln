@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F551F26B-C2FF-4324-9C43-6CB2609E3475}"
+	ProjectSection(SolutionItems) = preProject
+		01. Problem-bike.html = 01. Problem-bike.html
+		01. Problem-bike.js = 01. Problem-bike.js
+		01. Problem-face.html = 01. Problem-face.html
+		01. Problem-face.js = 01. Problem-face.js
+		01. Problem-house.html = 01. Problem-house.html
+		01. Problem-house.js = 01. Problem-house.js
+		02. BouncingBall.html = 02. BouncingBall.html
+		02. BouncingBall.js = 02. BouncingBall.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

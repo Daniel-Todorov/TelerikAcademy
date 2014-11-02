@@ -1,0 +1,72 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial;
+}
+
+header {
+    background-color: #363636;
+    padding: 12px;
+    height: 65px;
+    display:inline-block;
+    width:700px;
+}
+
+form {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+img {
+    display: inline-block;
+    float: left;
+    padding-right: 12px;
+}
+
+label, input {
+    vertical-align:middle;
+}
+
+label {
+    padding: 6px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input[type=text]{
+    height:24px;
+    margin-left:6px;
+    margin-right:6px;
+    padding-left:6px;
+}
+
+input[type=image]{
+    background-image:url(redButton.PNG);
+    margin-left:6px;
+}
+
+section {
+    padding: 12px;
+    background-color: #484747;
+    color: #7d7c7c;
+    width:700px;
+}
+
+strong {
+    color: #B6B6B6;
+    font-weight:normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    color: #D2C749;
+    font-size:32px;
+    font-weight:normal;
+    padding-top:12px;
+    padding-bottom:12px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Unit testing in Javascript with Mocha: Running tests</title>
+	<link rel="stylesheet" href="styles/mocha.css">
+</head>
+<body>
+<div id="mocha"></div>
+<script src="scripts/libs/underscore.js"></script>
+<script src="scripts/libs/mocha.js"></script>
+<script src="scripts/libs/chai.js"></script>
+<script type="text/javascript">
+	mocha.setup('bdd');
+	expect = chai.expect;
+</script>
+<script src="scripts/tests/sorter.js"></script>
+<script src="scripts/tests/sort-test.js"></script>
+<script type="text/javascript">
+	mocha.run();
+</script>
+</body>
+</html>

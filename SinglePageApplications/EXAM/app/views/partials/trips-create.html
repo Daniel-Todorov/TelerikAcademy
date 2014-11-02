@@ -1,0 +1,21 @@
+<div class="container">
+    <form name="createTripFrom">
+	    <h2>Create New Trip</h2>
+	    <label for="from">From</label>
+	        <select id="from" ng-model="newTrip.from" ng-options="city for city in cities" required="required">
+		    </select>
+	    <br>
+	    <label for="to">To</label>
+		    <select id="to" ng-model="newTrip.to" ng-options="city for city in cities" required="required">
+			</select>
+	    <br>
+	    <label for="seats">Available seats</label>
+		<input id="seats" ng-model="newTrip.availableSeats" type="number" min="1" value="1" required="required">
+	    <br>
+	    <label for="time">Departure time</label>
+		<input id="time" ng-model="newTrip.departureTime" type="datetime-local" required="required">
+	    <br>
+	    <button ng-click="createTrip(newTrip)" ng-disabled="createTripFrom.$invalid || newTrip.availableSeats <= 0">Create</button>
+	    <a href="#/">Cancel</a>
+    </form>
+</div>

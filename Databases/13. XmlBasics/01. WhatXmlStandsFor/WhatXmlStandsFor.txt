@@ -1,0 +1,3 @@
+﻿01. What does the XML language represents? What does it used for?
+
+Answer: XML is universal language for describing structured data using text with tags. It is used to describe other languages and formats for data representation

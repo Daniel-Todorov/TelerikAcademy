@@ -1,0 +1,16 @@
+extends ./layout.jade
+block content
+    table
+        thead
+            tr
+                th= 'Model'
+                th= 'Type'
+                th= 'Color'
+                th= 'Price'
+        tbody
+            each wearable in site.wearables
+                tr
+                    td= wearable.model
+                    td= wearable.type
+                    td= wearable.color
+                    td= wearable.price

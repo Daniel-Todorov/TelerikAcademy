@@ -1,0 +1,6 @@
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\11. ConvertNumberToText\bin\Release\_11.ConvertNumberToText.exe.config
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\11. ConvertNumberToText\bin\Release\_11.ConvertNumberToText.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\11. ConvertNumberToText\bin\Release\_11.ConvertNumberToText.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\11. ConvertNumberToText\obj\Release\_11.ConvertNumberToText.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\11. ConvertNumberToText\obj\Release\_11.ConvertNumberToText.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\11. ConvertNumberToText\obj\Release\11. ConvertNumberToText.csprojResolveAssemblyReference.cache

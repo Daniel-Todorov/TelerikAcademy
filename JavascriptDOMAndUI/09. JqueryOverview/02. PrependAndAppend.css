@@ -1,0 +1,19 @@
+﻿.main-element, .prepended-element, .appended-element{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    vertical-align: top;
+    background-color: blue;
+}
+
+.main-element{
+    background-color: blue;
+}
+
+.prepended-element{
+    background-color: red;
+}
+
+.appended-element{
+    background-color: green;
+}

@@ -1,0 +1,22 @@
+<form name="registrationForm" ng-controller="RegistrationController" novalidate>
+	<h2>Register</h2>
+	<label for="email">Email: </label>
+	<input id="email" name="email" type="email" required placeholder="Email"
+	       ng-model="newUser.email"
+	       ng-pattern="/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/">
+	<span ng-show="registrationForm.email.$error.pattern && !registrationForm.email.$pristine">Invalid email!</span>
+	<br>
+	<label for="password">Password</label>
+	<input id="password" name="password" type="password" required placeholder="Password"
+	       ng-model="newUser.password"
+	       ng-minlength="6"
+	       ng-maxlength="20">
+	<span ng-show="registrationForm.password.$error.minlength && !registrationForm.userPassword.$pristine">Password is too short.</span>
+	<span ng-show="registrationForm.password.$error.maxlength && !registrationForm.userPassword.$pristine">Password is too long.</span>
+	<br>
+	<label for="confirm-password">Confirm password</label>
+	<input id="confirm-password" name="confirm-password" type="password" required placeholder="Confirm password" ng-model="newUser.confirmPassword">
+	<span ng-show="newUser.password != newUser.confirmPassword && !registrationForm.password.$pristine">Password is not confirmed.</span>
+	<br>
+	<input type="button" ng-click="register(newUser)" ng-disabled="registrationForm.$invalid || newUser.password != newUser.confirmPassword" value="Register">
+</form>

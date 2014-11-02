@@ -1,0 +1,36 @@
+extends ../shared/layout
+block main-content
+    h1= 'Profile of "' + user.username + '"'
+    hr
+    table(border="")
+        thead
+            tr
+                td List of created events
+        tbody
+            each event in eventsWithUser
+                if event.creatorName == user.username
+                    tr
+                        td
+                            a(href='/events/'+event._id)= event.title
+    hr
+    table(border="")
+        thead
+            tr
+                td List of joined events
+        tbody
+            each event in eventsWithUser
+                if event.creatorName != user.username
+                    tr
+                        td
+                            a(href='/events/'+event._id)= event.title
+    hr
+    table(border="")
+        thead
+            tr
+                td List of passed events in which the user has taken part either as creator or signed-up user
+        tbody
+            each event in eventsWithUser
+                if event.date < new Date()
+                    tr
+                        td
+                            a(href='/events/'+event._id)= event.title

@@ -1,0 +1,62 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: Tahoma, Arial;
+}
+
+header, section {
+    margin: 12px;
+    margin-bottom: 36px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+section {
+    background-color: #FFFFFF;
+    border: 2px solid #D5D5D5;
+    padding: 18px;
+    width: 425px;
+    display: block;
+}
+
+img {
+    border: 2px solid #D5D5D5;
+    margin-right: 18px;
+    float: left;
+}
+
+p {
+    font-size: 14px;
+    display: block;
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 19px;
+}
+
+button {
+    display: inline-block;
+    background-repeat: no-repeat;
+    border: 0px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 14px;
+    vertical-align: bottom;
+    position:relative;
+    right:-66px;
+}
+
+.listen {
+    background-image: url(listenButton.PNG);
+    padding: 8px 26px 8px 30px;
+}
+
+.add {
+    background-image: url(addButton.PNG);
+    padding: 8px 22px 8px 30px;
+}

@@ -1,0 +1,56 @@
+﻿table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 4px;
+}
+
+tfoot {
+    background-color: azure;
+    text-align: center;
+}
+
+.normal {
+    width: 375px;
+}
+
+.firstColumn {
+    width: 144px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.city {
+    width: 290px;
+}
+
+.state {
+    width: 36px;
+    font-weight: bold;
+}
+
+.phone1 {
+    width: 81px;
+}
+
+.phone2 {
+    width: 162px;
+}
+
+.date1 {
+    width: 25px;
+}
+
+.date2 {
+    width: 50px;
+}
+
+#adress {
+    width: 350px;
+}
+
+#state {
+    width: 36px;
+    font-weight: bold;
+}

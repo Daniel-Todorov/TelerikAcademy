@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Problem", "01. Problem", "{EAD685D4-EB57-4B0D-8E07-015B01DEB499}"
+	ProjectSection(SolutionItems) = preProject
+		01. Problem.css = 01. Problem.css
+		01. Problem.html = 01. Problem.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Problem", "02. Problem", "{CF7C3B71-84B7-4720-B044-EBFA2B3148E4}"
+	ProjectSection(SolutionItems) = preProject
+		02. Problem.css = 02. Problem.css
+		02. Problem.html = 02. Problem.html
+		addButton.PNG = addButton.PNG
+		firstPic.PNG = firstPic.PNG
+		listenButton.PNG = listenButton.PNG
+		secondPic.PNG = secondPic.PNG
+		thirdPic.PNG = thirdPic.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Problem", "03. Problem", "{3B92AB55-EF2D-45A6-8949-1E1296A2B030}"
+	ProjectSection(SolutionItems) = preProject
+		03. Problem.css = 03. Problem.css
+		03. Problem.html = 03. Problem.html
+		redButton.PNG = redButton.PNG
+		yellowComputer.PNG = yellowComputer.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Problem", "04. Problem", "{7E48AF29-0A8E-477C-8B8D-1A982DA26DA2}"
+	ProjectSection(SolutionItems) = preProject
+		04. Problem.css = 04. Problem.css
+		04. Problem.html = 04. Problem.html
+		css.PNG = css.PNG
+		home.PNG = home.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Problem", "05. Problem", "{2378B09D-BE17-4FED-9E98-772FA86C457B}"
+	ProjectSection(SolutionItems) = preProject
+		05. Problem.css = 05. Problem.css
+		05. Problem.html = 05. Problem.html
+		laptop.png = laptop.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Problem", "06. Problem", "{8ED7DD84-ED7E-4DEC-8604-0C5FFF896ACC}"
+	ProjectSection(SolutionItems) = preProject
+		06. Problem.css = 06. Problem.css
+		06. Problem.html = 06. Problem.html
+		btv.PNG = btv.PNG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

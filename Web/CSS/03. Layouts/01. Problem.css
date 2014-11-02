@@ -1,0 +1,32 @@
+﻿* {
+    margin: 0px;
+    padding: 2px;
+    color: black;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+li > ul {
+    display: none;
+    color: gray;
+    padding-left: 12px;
+    text-decoration: none;
+}
+
+li:hover > ul {
+    display: block;
+}
+
+li:hover ul li a {
+    color: gray;
+}

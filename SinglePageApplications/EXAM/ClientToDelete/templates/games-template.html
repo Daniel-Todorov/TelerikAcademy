@@ -1,0 +1,6 @@
+<div ng-controller="JoinGameController">
+	<h2>Available games</h2>
+	<p>There are <span>{{numberOfAvailableGames[0]}} available games</span></p>
+	<button ng-show="numberOfAvailableGames[0] > 0" ng-click="joinGame()">Join</button>
+	<p ng-show="numberOfAvailableGames[0] === '0'">There are no available games. Please, create a new one and wait for second player.</p>
+</div>

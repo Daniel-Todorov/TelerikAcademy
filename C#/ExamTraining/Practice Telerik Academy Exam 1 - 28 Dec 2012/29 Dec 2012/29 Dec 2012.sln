@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleRotationOfDigits", "TripleRotationOfDigits\TripleRotationOfDigits.csproj", "{3EAC8DCB-013E-4B5F-8422-B07956EB53DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UKFlag", "UKFlag\UKFlag.csproj", "{815D7B5E-2107-4674-8943-5943B395E782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadronacciRectangle", "QuadronacciRectangle\QuadronacciRectangle.csproj", "{22C90CA4-C28C-4E55-98F0-C087E9AF07EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker", "Poker\Poker.csproj", "{8A25F917-3664-40CE-9D35-49D22418C652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EAC8DCB-013E-4B5F-8422-B07956EB53DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAC8DCB-013E-4B5F-8422-B07956EB53DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAC8DCB-013E-4B5F-8422-B07956EB53DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAC8DCB-013E-4B5F-8422-B07956EB53DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815D7B5E-2107-4674-8943-5943B395E782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815D7B5E-2107-4674-8943-5943B395E782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815D7B5E-2107-4674-8943-5943B395E782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815D7B5E-2107-4674-8943-5943B395E782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C90CA4-C28C-4E55-98F0-C087E9AF07EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C90CA4-C28C-4E55-98F0-C087E9AF07EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C90CA4-C28C-4E55-98F0-C087E9AF07EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C90CA4-C28C-4E55-98F0-C087E9AF07EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A25F917-3664-40CE-9D35-49D22418C652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A25F917-3664-40CE-9D35-49D22418C652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A25F917-3664-40CE-9D35-49D22418C652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A25F917-3664-40CE-9D35-49D22418C652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

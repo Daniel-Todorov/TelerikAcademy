@@ -1,0 +1,101 @@
+html, body {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*#wrapper {
+    width: 960px;
+    margin: 4px;
+}*/
+
+.clear {
+    clear: both;
+}
+
+/*-------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div#header {
+    height: 64px;
+    background-image: url(images/topnav_divider.png);
+
+    h1 {
+        font-size: 28px;
+        float: right;
+        color: white;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    nav#nav {
+        float: left;
+        font-size: 18px;
+
+        ul {
+            margin-left: 50px;
+            margin-top: 20px;
+
+            li {
+                margin-right: 18px;
+
+                a {
+                    color: white;
+                }
+
+                &:first-letter {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+div#archive {
+    font-size: 10px;
+
+    ul {
+        float: right;
+
+        li {
+            margin: 0 5.5px 1px;
+        }
+    }
+}
+
+
+
+div#content h1 {
+    margin: 16px 0;
+    font-size: 24px;
+}
+
+article {
+    text-align: justify;
+    font-size: 14px;
+
+    p {
+        margin-bottom: 14px;
+    }
+}

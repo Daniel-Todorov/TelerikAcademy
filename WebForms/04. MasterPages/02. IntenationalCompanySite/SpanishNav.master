@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Header.Master" AutoEventWireup="true" CodeBehind="SpanishNav.master.cs" Inherits="_02.IntenationalCompanySite.SpanishNav" %>
+
+<asp:Content ID="SpanishContentNav" ContentPlaceHolderID="ConventNavigation" runat="server">
+    <ul>
+        <li><a href="/SpanishPages/HomeSp.aspx">Inicio</a></li>
+        <li><a href="/SpanishPages/AboutSp.aspx">Acerca de</a></li>
+        <li><a href="/SpanishPages/ContactsSp.aspx">Contactos</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="SpanishMainContent" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:ContentPlaceHolder ID="SpanishContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>

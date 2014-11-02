@@ -1,0 +1,23 @@
+----------------------------------------------------------------
+Connection string for "Company" database: 
+  <connectionStrings>
+    <add name="CompanyEntities" connectionString="metadata=res://*/CompanyEntities.csdl|res://*/CompanyEntities.ssdl|res://*/CompanyEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=Company;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
+-----------------------------------------------------------------
+Connection string for "Cars" database:
+  <connectionStrings>
+    <add name="CarEntities" connectionString="data source=.;initial catalog=Cars;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+----------------------------------------------------------------
+Relationships for "Company" database: 
+1. Employees : Projects - many to many (implemented with a third table - EmployeesProjects)
+2. Employees : Departments - one to many (implemented by a foreign key)
+3. Employees : Reports - one to many (implemented by a foreign key)
+4. Employees : Managers - one to one (implemented by a foreign key pointing towards the same table)
+----------------------------------------------------------------
+Relationships for "Cars" database: 
+1. Cars : Manufacturers - one to many
+2. Cars : Dealers - one to many
+3. Dealers : Cities - many to many 
+----------------------------------------------------------------
+Query files: NOT DONE (file location in solution)

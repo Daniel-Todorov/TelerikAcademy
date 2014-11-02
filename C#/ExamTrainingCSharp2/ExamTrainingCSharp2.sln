@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1. KaspichanNumbers", "1.1. KaspichanNumbers\1.1. KaspichanNumbers.csproj", "{66AA80F6-41A9-462D-9C94-B80BE572BCF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2. GreedyDwarf", "1.2. GreedyDwarf\1.2. GreedyDwarf.csproj", "{75E1498E-A288-4D2E-98AE-21722C6FD0F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.3. Slides", "1.3. Slides\1.3. Slides.csproj", "{38893F67-52C3-44C0-A338-46AABCCF787D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4. ConsoleJustification", "1.4. ConsoleJustification\1.4. ConsoleJustification.csproj", "{ADAEC357-17FC-48AD-AB70-F5C96F484037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1. DurankulakNumbers", "3.1. DurankulakNumbers\3.1. DurankulakNumbers.csproj", "{885CB8C5-DE03-49FA-8A81-E0AC7200FCF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2. SpecialValue", "4.2. SpecialValue\4.2. SpecialValue.csproj", "{C52DCE78-7391-44B7-B68A-352E7941C4C9}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs11
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 1.1.\u0020KaspichanNumbers\\1.1.\u0020KaspichanNumbers.csproj
+		SccProjectName1 = 1.1.\u0020KaspichanNumbers
+		SccLocalPath1 = 1.1.\u0020KaspichanNumbers
+		SccProjectUniqueName2 = 1.2.\u0020GreedyDwarf\\1.2.\u0020GreedyDwarf.csproj
+		SccProjectName2 = 1.2.\u0020GreedyDwarf
+		SccLocalPath2 = 1.2.\u0020GreedyDwarf
+		SccProjectUniqueName3 = 1.3.\u0020Slides\\1.3.\u0020Slides.csproj
+		SccProjectName3 = 1.3.\u0020Slides
+		SccLocalPath3 = 1.3.\u0020Slides
+		SccProjectUniqueName4 = 1.4.\u0020ConsoleJustification\\1.4.\u0020ConsoleJustification.csproj
+		SccProjectName4 = 1.4.\u0020ConsoleJustification
+		SccLocalPath4 = 1.4.\u0020ConsoleJustification
+		SccProjectUniqueName5 = 3.1.\u0020DurankulakNumbers\\3.1.\u0020DurankulakNumbers.csproj
+		SccProjectName5 = 3.1.\u0020DurankulakNumbers
+		SccLocalPath5 = 3.1.\u0020DurankulakNumbers
+		SccProjectUniqueName6 = 4.2.\u0020SpecialValue\\4.2.\u0020SpecialValue.csproj
+		SccProjectName6 = 4.2.\u0020SpecialValue
+		SccLocalPath6 = 4.2.\u0020SpecialValue
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66AA80F6-41A9-462D-9C94-B80BE572BCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AA80F6-41A9-462D-9C94-B80BE572BCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AA80F6-41A9-462D-9C94-B80BE572BCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AA80F6-41A9-462D-9C94-B80BE572BCF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E1498E-A288-4D2E-98AE-21722C6FD0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E1498E-A288-4D2E-98AE-21722C6FD0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E1498E-A288-4D2E-98AE-21722C6FD0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E1498E-A288-4D2E-98AE-21722C6FD0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38893F67-52C3-44C0-A338-46AABCCF787D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38893F67-52C3-44C0-A338-46AABCCF787D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38893F67-52C3-44C0-A338-46AABCCF787D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38893F67-52C3-44C0-A338-46AABCCF787D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAEC357-17FC-48AD-AB70-F5C96F484037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAEC357-17FC-48AD-AB70-F5C96F484037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAEC357-17FC-48AD-AB70-F5C96F484037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAEC357-17FC-48AD-AB70-F5C96F484037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885CB8C5-DE03-49FA-8A81-E0AC7200FCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885CB8C5-DE03-49FA-8A81-E0AC7200FCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885CB8C5-DE03-49FA-8A81-E0AC7200FCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885CB8C5-DE03-49FA-8A81-E0AC7200FCF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52DCE78-7391-44B7-B68A-352E7941C4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52DCE78-7391-44B7-B68A-352E7941C4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52DCE78-7391-44B7-B68A-352E7941C4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52DCE78-7391-44B7-B68A-352E7941C4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

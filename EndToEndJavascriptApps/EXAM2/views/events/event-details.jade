@@ -1,0 +1,14 @@
+extends ../shared/layout
+block main-content
+    h1= event.title
+    hr
+    if event.location
+        p= 'Location: ' + event.location
+    if event.comments
+        each comment in event.comments
+            p= comment
+    p= 'Creator: '
+        strong= creator.username
+    p= creator.username + ' has ' + creator.organizationPoints + ' organization points and ' + creator.venuePoints + ' venuePoints.'
+    p= 'Event Category: ' + event.category
+    p= 'Event Date: ' + event.date

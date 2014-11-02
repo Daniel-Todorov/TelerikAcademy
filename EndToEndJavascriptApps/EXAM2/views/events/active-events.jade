@@ -1,0 +1,20 @@
+extends ../shared/layout
+block main-content
+    each category in categories
+        table(border="1")
+            thead
+                tr
+                    th(colspan=3)= category
+                tr
+                    th Event Title
+                    th Creator Name
+                    th Event Date
+            tbody
+                each event in events
+                    if event.category == category
+                        tr
+                            td
+                                a(href='/events/'+event._id)= event.title
+                            td= event.creatorName
+                            td= event.date
+        hr

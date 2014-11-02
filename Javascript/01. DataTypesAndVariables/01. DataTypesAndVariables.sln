@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. AssignLiterals", "01. AssignLiterals", "{44240092-CB23-4137-868F-E2DEE7D7DFF1}"
+	ProjectSection(SolutionItems) = preProject
+		AssignLitterals.html = AssignLitterals.html
+		AssignLitterals.js = AssignLitterals.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. QuotedString", "02. QuotedString", "{ECADC4BE-C08D-455C-B28B-DC56560DAA2D}"
+	ProjectSection(SolutionItems) = preProject
+		QuotedString.html = QuotedString.html
+		QuotedString.js = QuotedString.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. TryTypeof", "03. TryTypeof", "{2E8B44F3-37E5-402A-A39B-89CE99689D0C}"
+	ProjectSection(SolutionItems) = preProject
+		TryTypeof.html = TryTypeof.html
+		TryTypeof.js = TryTypeof.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. TryTypeofNullAndUndefined", "04. TryTypeofNullAndUndefined", "{0C069C15-6E05-486D-9A47-9EA76D7A0D4F}"
+	ProjectSection(SolutionItems) = preProject
+		TryTypeofNullAndUndefined.html = TryTypeofNullAndUndefined.html
+		TryTypeofNullAndUndefined.js = TryTypeofNullAndUndefined.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

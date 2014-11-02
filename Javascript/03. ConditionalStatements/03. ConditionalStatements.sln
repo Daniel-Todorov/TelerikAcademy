@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. FindGreater", "01. FindGreater", "{626EE3A8-64E5-492E-9BB7-6E9347419739}"
+	ProjectSection(SolutionItems) = preProject
+		FindGreater.html = FindGreater.html
+		FindGreater.js = FindGreater.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. FindSign", "02. FindSign", "{1119D062-4EB7-41E5-82C3-EF6E4AFA75EF}"
+	ProjectSection(SolutionItems) = preProject
+		FindSign.html = FindSign.html
+		FindSign.js = FindSign.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. BiggestOfThreeIntegers", "03. BiggestOfThreeIntegers", "{D456E5DB-FD6D-4F4C-905E-B15A37AC0BDD}"
+	ProjectSection(SolutionItems) = preProject
+		BiggestOfThreeIntegers.html = BiggestOfThreeIntegers.html
+		BiggestOfThreeIntegers.js = BiggestOfThreeIntegers.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. SortDescending", "04. SortDescending", "{BE01A98F-ABFB-4A53-AFC3-9C1674F1AF13}"
+	ProjectSection(SolutionItems) = preProject
+		SortDescending.html = SortDescending.html
+		SortDescending.js = SortDescending.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. NameOfDigit", "05. NameOfDigit", "{00A27B16-34D8-4FFF-A469-492B2CE12E43}"
+	ProjectSection(SolutionItems) = preProject
+		NameOfDigit.html = NameOfDigit.html
+		NameOfDigit.js = NameOfDigit.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. SolveQuadraticEquation", "06. SolveQuadraticEquation", "{884214D9-20B2-4A09-9AAE-79F733BDD265}"
+	ProjectSection(SolutionItems) = preProject
+		SolveQuadraticEquation.html = SolveQuadraticEquation.html
+		SolveQuadraticEquation.js = SolveQuadraticEquation.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. FindGreatestOfFive", "07. FindGreatestOfFive", "{AC159269-2248-4C44-A30F-1A9E03C65DEB}"
+	ProjectSection(SolutionItems) = preProject
+		FindGreatestOfFive.html = FindGreatestOfFive.html
+		FindGreatestOfFive.js = FindGreatestOfFive.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. NumberToString", "08. NumberToString", "{09ED8412-3B76-4310-8B18-B1649ADADC8A}"
+	ProjectSection(SolutionItems) = preProject
+		NumberToString.html = NumberToString.html
+		NumberToString.js = NumberToString.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

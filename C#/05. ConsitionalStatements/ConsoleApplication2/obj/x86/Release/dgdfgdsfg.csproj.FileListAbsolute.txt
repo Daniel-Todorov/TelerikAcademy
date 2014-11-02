@@ -1,0 +1,4 @@
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\ConsoleApplication2\bin\Release\ConsoleApplication2.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\ConsoleApplication2\bin\Release\ConsoleApplication2.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\ConsoleApplication2\obj\x86\Release\ConsoleApplication2.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\ConsoleApplication2\obj\x86\Release\ConsoleApplication2.pdb

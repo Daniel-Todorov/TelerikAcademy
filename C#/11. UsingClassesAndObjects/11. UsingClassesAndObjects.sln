@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. CheckLeapYear", "01. CheckLeapYear\01. CheckLeapYear.csproj", "{DEBB6C6B-CBB6-4C9D-9DAE-7720530BDA7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. GenerateTenRandomValues", "02. GenerateTenRandomValues\02. GenerateTenRandomValues.csproj", "{72A450C6-A91D-4E7E-8081-5D220E6A48EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. PrintWhichDayIsToday", "03. PrintWhichDayIsToday\03. PrintWhichDayIsToday.csproj", "{411B3105-F25B-48BA-AA1A-47D888B7892F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. CalculateSurfaceIfTriangle", "04. CalculateSurfaceIfTriangle\04. CalculateSurfaceIfTriangle.csproj", "{A3D4A808-B739-4AC6-9615-F4BF53B99515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. NumberOfWorkdays", "05. NumberOfWorkdays\05. NumberOfWorkdays.csproj", "{2B057467-F2D5-4351-9AD6-538B68B832B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. ReadAndCalculateMultipleValuesFromSingleString", "06. ReadAndCalculateMultipleValuesFromSingleString\06. ReadAndCalculateMultipleValuesFromSingleString.csproj", "{080FDB6C-0D7D-4AE3-AAB6-86DFB337CF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. CalculateValueOfArithmeticalExpression", "07. CalculateValueOfArithmeticalExpression\07. CalculateValueOfArithmeticalExpression.csproj", "{31B2D4FF-65A1-449A-BF48-5590D3B9CEB9}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs11
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 01.\u0020CheckLeapYear\\01.\u0020CheckLeapYear.csproj
+		SccProjectName1 = 01.\u0020CheckLeapYear
+		SccLocalPath1 = 01.\u0020CheckLeapYear
+		SccProjectUniqueName2 = 02.\u0020GenerateTenRandomValues\\02.\u0020GenerateTenRandomValues.csproj
+		SccProjectName2 = 02.\u0020GenerateTenRandomValues
+		SccLocalPath2 = 02.\u0020GenerateTenRandomValues
+		SccProjectUniqueName3 = 03.\u0020PrintWhichDayIsToday\\03.\u0020PrintWhichDayIsToday.csproj
+		SccProjectName3 = 03.\u0020PrintWhichDayIsToday
+		SccLocalPath3 = 03.\u0020PrintWhichDayIsToday
+		SccProjectUniqueName4 = 04.\u0020CalculateSurfaceIfTriangle\\04.\u0020CalculateSurfaceIfTriangle.csproj
+		SccProjectName4 = 04.\u0020CalculateSurfaceIfTriangle
+		SccLocalPath4 = 04.\u0020CalculateSurfaceIfTriangle
+		SccProjectUniqueName5 = 05.\u0020NumberOfWorkdays\\05.\u0020NumberOfWorkdays.csproj
+		SccProjectName5 = 05.\u0020NumberOfWorkdays
+		SccLocalPath5 = 05.\u0020NumberOfWorkdays
+		SccProjectUniqueName6 = 06.\u0020ReadAndCalculateMultipleValuesFromSingleString\\06.\u0020ReadAndCalculateMultipleValuesFromSingleString.csproj
+		SccProjectName6 = 06.\u0020ReadAndCalculateMultipleValuesFromSingleString
+		SccLocalPath6 = 06.\u0020ReadAndCalculateMultipleValuesFromSingleString
+		SccProjectUniqueName7 = 07.\u0020CalculateValueOfArithmeticalExpression\\07.\u0020CalculateValueOfArithmeticalExpression.csproj
+		SccProjectName7 = 07.\u0020CalculateValueOfArithmeticalExpression
+		SccLocalPath7 = 07.\u0020CalculateValueOfArithmeticalExpression
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEBB6C6B-CBB6-4C9D-9DAE-7720530BDA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBB6C6B-CBB6-4C9D-9DAE-7720530BDA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBB6C6B-CBB6-4C9D-9DAE-7720530BDA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBB6C6B-CBB6-4C9D-9DAE-7720530BDA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A450C6-A91D-4E7E-8081-5D220E6A48EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A450C6-A91D-4E7E-8081-5D220E6A48EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A450C6-A91D-4E7E-8081-5D220E6A48EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A450C6-A91D-4E7E-8081-5D220E6A48EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411B3105-F25B-48BA-AA1A-47D888B7892F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411B3105-F25B-48BA-AA1A-47D888B7892F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411B3105-F25B-48BA-AA1A-47D888B7892F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411B3105-F25B-48BA-AA1A-47D888B7892F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D4A808-B739-4AC6-9615-F4BF53B99515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D4A808-B739-4AC6-9615-F4BF53B99515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D4A808-B739-4AC6-9615-F4BF53B99515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D4A808-B739-4AC6-9615-F4BF53B99515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B057467-F2D5-4351-9AD6-538B68B832B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B057467-F2D5-4351-9AD6-538B68B832B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B057467-F2D5-4351-9AD6-538B68B832B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B057467-F2D5-4351-9AD6-538B68B832B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080FDB6C-0D7D-4AE3-AAB6-86DFB337CF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080FDB6C-0D7D-4AE3-AAB6-86DFB337CF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080FDB6C-0D7D-4AE3-AAB6-86DFB337CF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080FDB6C-0D7D-4AE3-AAB6-86DFB337CF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B2D4FF-65A1-449A-BF48-5590D3B9CEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B2D4FF-65A1-449A-BF48-5590D3B9CEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B2D4FF-65A1-449A-BF48-5590D3B9CEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B2D4FF-65A1-449A-BF48-5590D3B9CEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

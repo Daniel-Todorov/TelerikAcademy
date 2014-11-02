@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. LastDigitAsWord", "01. LastDigitAsWord", "{BCF6E077-5614-428C-942C-C0D7799B4B38}"
+	ProjectSection(SolutionItems) = preProject
+		LastDigitAsWord.html = LastDigitAsWord.html
+		LastDigitAsWord.js = LastDigitAsWord.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. ReverseDigits", "02. ReverseDigits", "{341D43BF-E8C0-4D2A-A1A3-E77DFE1D6848}"
+	ProjectSection(SolutionItems) = preProject
+		ReverseDigits.html = ReverseDigits.html
+		ReverseDigits.js = ReverseDigits.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. OccurancesOfWordInText", "03. OccurancesOfWordInText", "{E5977EE5-98ED-4EBF-8E84-5BB4C05EE256}"
+	ProjectSection(SolutionItems) = preProject
+		OccurancesOfWordInText.html = OccurancesOfWordInText.html
+		OccurancesOfWordInText.js = OccurancesOfWordInText.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. CountNumberOfDivs", "04. CountNumberOfDivs", "{9ED46FB0-D9DB-4600-97CD-B8E03568D98E}"
+	ProjectSection(SolutionItems) = preProject
+		CountNumberOfDivs.html = CountNumberOfDivs.html
+		CountNumberOfDivs.js = CountNumberOfDivs.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. NumberOfAppearance", "05. NumberOfAppearance", "{18CB698F-59D0-4183-91AC-DCD7E80BA72E}"
+	ProjectSection(SolutionItems) = preProject
+		NumberOfAppearance.html = NumberOfAppearance.html
+		NumberOfAppearance.js = NumberOfAppearance.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. BiggerThanNeighbours", "06. BiggerThanNeighbours", "{C1B02E79-62D2-4A02-A90F-9B79404DEA11}"
+	ProjectSection(SolutionItems) = preProject
+		BiggerThanNeighbours.html = BiggerThanNeighbours.html
+		BiggerThanNeighbours.js = BiggerThanNeighbours.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. IndexOfFirstElementBiggerThanNeighbours", "07. IndexOfFirstElementBiggerThanNeighbours", "{07BEA0D7-D9EE-464E-A9BC-ED1C5476E28C}"
+	ProjectSection(SolutionItems) = preProject
+		IndexOfFirstElementBiggerThanNeighbours.html = IndexOfFirstElementBiggerThanNeighbours.html
+		IndexOfFirstElementBiggerThanNeighbours.js = IndexOfFirstElementBiggerThanNeighbours.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

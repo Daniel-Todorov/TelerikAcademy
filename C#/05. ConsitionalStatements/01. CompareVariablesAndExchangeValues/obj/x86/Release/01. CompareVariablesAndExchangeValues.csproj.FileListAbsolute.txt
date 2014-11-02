@@ -1,0 +1,12 @@
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\05. ConsitionalStatements\bin\Release\05. ConsitionalStatements.exe
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\05. ConsitionalStatements\bin\Release\05. ConsitionalStatements.pdb
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\05. ConsitionalStatements\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\05. ConsitionalStatements\obj\x86\Release\05. ConsitionalStatements.exe
+C:\Documents and Settings\Lakorda\Desktop\10. FallingRocksGame\05. ConsitionalStatements\05. ConsitionalStatements\obj\x86\Release\05. ConsitionalStatements.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\05. ConsitionalStatements\obj\x86\Release\05. ConsitionalStatements.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\05. ConsitionalStatements\obj\x86\Release\05. ConsitionalStatements.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\05. ConsitionalStatements\bin\Release\05. ConsitionalStatements.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\05. ConsitionalStatements\bin\Release\05. ConsitionalStatements.pdb
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\05. ConsitionalStatements\obj\x86\Release\01. CompareVariablesAndExchangeValues.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\01. CompareVariablesAndExchangeValues\obj\x86\Release\05. ConsitionalStatements.exe
+C:\Users\Daniel Todorov\Desktop\C#\05. ConsitionalStatements\01. CompareVariablesAndExchangeValues\obj\x86\Release\05. ConsitionalStatements.pdb

@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. StructurePoint3D", "01. StructurePoint3D\01. StructurePoint3D.csproj", "{E49A0D2F-E1EE-4867-87C1-C3A017E75B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. StartOfCoordinateSystem", "02. StartOfCoordinateSystem\02. StartOfCoordinateSystem.csproj", "{804C46EA-0B8A-4822-A951-20B31BF87A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. DistanceCalculator", "03. DistanceCalculator\03. DistanceCalculator.csproj", "{C88C799A-2ACF-4D22-A78F-DED49FA01F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. PathAndStorage", "04. PathAndStorage\04. PathAndStorage.csproj", "{3AB4409A-5E3B-4A01-A48F-7F1079B7D4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. GenericList", "05. GenericList\05. GenericList.csproj", "{F3A03B2B-2DE6-4D3B-9EE7-3DEBF7BF68EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. ImplementAutoGrow", "06. ImplementAutoGrow\06. ImplementAutoGrow.csproj", "{E196AD04-D58E-4AFF-872E-F5E3BEC2F0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. ImplementGenericMethods", "07. ImplementGenericMethods\07. ImplementGenericMethods.csproj", "{1EEFB10F-1198-4EFA-80A0-0A16325D7E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. MatrixClass", "08. MatrixClass\08. MatrixClass.csproj", "{AC6B809C-35F9-4071-B8AE-AFB54DCD8433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ImplementIndexer", "09. ImplementIndexer\09. ImplementIndexer.csproj", "{6DEF8DFB-A14B-499F-A106-F1A5DD1D6C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. ImplementOperators", "10. ImplementOperators\10. ImplementOperators.csproj", "{45AEA9EB-B96A-4BFA-AB2F-364CB1C3E5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. AttributeVersion", "11. Attribute\11. AttributeVersion.csproj", "{B5126773-3247-42CF-AABC-5FE5DDFCD839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E49A0D2F-E1EE-4867-87C1-C3A017E75B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49A0D2F-E1EE-4867-87C1-C3A017E75B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49A0D2F-E1EE-4867-87C1-C3A017E75B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49A0D2F-E1EE-4867-87C1-C3A017E75B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804C46EA-0B8A-4822-A951-20B31BF87A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804C46EA-0B8A-4822-A951-20B31BF87A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804C46EA-0B8A-4822-A951-20B31BF87A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804C46EA-0B8A-4822-A951-20B31BF87A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88C799A-2ACF-4D22-A78F-DED49FA01F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88C799A-2ACF-4D22-A78F-DED49FA01F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88C799A-2ACF-4D22-A78F-DED49FA01F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88C799A-2ACF-4D22-A78F-DED49FA01F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB4409A-5E3B-4A01-A48F-7F1079B7D4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB4409A-5E3B-4A01-A48F-7F1079B7D4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB4409A-5E3B-4A01-A48F-7F1079B7D4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB4409A-5E3B-4A01-A48F-7F1079B7D4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A03B2B-2DE6-4D3B-9EE7-3DEBF7BF68EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A03B2B-2DE6-4D3B-9EE7-3DEBF7BF68EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A03B2B-2DE6-4D3B-9EE7-3DEBF7BF68EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A03B2B-2DE6-4D3B-9EE7-3DEBF7BF68EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E196AD04-D58E-4AFF-872E-F5E3BEC2F0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E196AD04-D58E-4AFF-872E-F5E3BEC2F0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E196AD04-D58E-4AFF-872E-F5E3BEC2F0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E196AD04-D58E-4AFF-872E-F5E3BEC2F0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEFB10F-1198-4EFA-80A0-0A16325D7E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEFB10F-1198-4EFA-80A0-0A16325D7E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEFB10F-1198-4EFA-80A0-0A16325D7E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEFB10F-1198-4EFA-80A0-0A16325D7E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6B809C-35F9-4071-B8AE-AFB54DCD8433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6B809C-35F9-4071-B8AE-AFB54DCD8433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6B809C-35F9-4071-B8AE-AFB54DCD8433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6B809C-35F9-4071-B8AE-AFB54DCD8433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEF8DFB-A14B-499F-A106-F1A5DD1D6C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEF8DFB-A14B-499F-A106-F1A5DD1D6C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEF8DFB-A14B-499F-A106-F1A5DD1D6C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEF8DFB-A14B-499F-A106-F1A5DD1D6C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AEA9EB-B96A-4BFA-AB2F-364CB1C3E5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AEA9EB-B96A-4BFA-AB2F-364CB1C3E5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AEA9EB-B96A-4BFA-AB2F-364CB1C3E5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AEA9EB-B96A-4BFA-AB2F-364CB1C3E5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5126773-3247-42CF-AABC-5FE5DDFCD839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5126773-3247-42CF-AABC-5FE5DDFCD839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5126773-3247-42CF-AABC-5FE5DDFCD839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5126773-3247-42CF-AABC-5FE5DDFCD839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

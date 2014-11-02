@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title= site.title
+    each style in site.styles
+        link(rel='stylesheet', href=style.href)
+  body
+    hr
+    header
+        h1= 'Welcome to "' + site.title + '"'
+        h2= 'We offer you top quality mobile gear at lowest possible price!'
+        hr
+        nav
+          ul
+            each item in site.menu
+                li
+                    a(href=item.href)= item.name
+        hr
+    section
+        block content
+  hr
+  footer
+    p= 'Author: ' + site.author
+    p= 'Year: ' + site.year

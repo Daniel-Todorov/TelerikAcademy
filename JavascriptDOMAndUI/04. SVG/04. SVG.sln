@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{496BA480-7DCF-488B-8589-BB5FFAB89E85}"
+	ProjectSection(SolutionItems) = preProject
+		01. DrawMEAN.html = 01. DrawMEAN.html
+		02. DrawWindowsStartScreen.html = 02. DrawWindowsStartScreen.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

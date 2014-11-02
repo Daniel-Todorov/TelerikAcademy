@@ -1,0 +1,3 @@
+﻿03. What does the namespaces represents in the XML documents? What are they used for? 
+
+In XML, element names are defined by the developer. This often results in a conflict when trying to mix XML documents from different XML applications.Namespaces in XML documents allow using different tags with the same name in one document.

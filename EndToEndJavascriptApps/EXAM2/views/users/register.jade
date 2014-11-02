@@ -1,0 +1,45 @@
+extends ../shared/layout
+
+block main-content
+    br
+    form(method="post")
+        label(for="username") Username
+        input(id="username" type="text" name="username" placeholder="Username" required)
+        br
+        label(for="password") Password
+        input(id="password" type="password" name="password" placeholder="Password" required)
+        br
+        label(for="confirm-password") Confirm Password
+        input(id="confirm-password" type="password" name="confirmPassword" placeholder="Confirm Password" required)
+        br
+        label(for="email") Email
+        input(id="email" type="email" name="email" placeholder="Email" required)
+        br
+        label(for="first-name") First Name
+        input(id="first-name" type="text" name="firstName" placeholder="First Name" required)
+        br
+        label(for="last-name") Last Name
+        input(id="last-name" type="text" name="lastName" placeholder="Last Name" required)
+        br
+        label(for="initiative") Initiative (can be left empty if you want to be a meer observer)
+        select(id="initiative" name="initiative")
+            each initiative in initiatives
+                option(value=''+initiative)= initiative
+        br
+        label(for="profile-image") Profile Image
+        input(id="profile-image" type="url" name="profileImage" placeholder="Url to your avatar (be sure hotlinking is allowed)")
+        br
+        label(for="facebook-profile") Facebook Profile
+        input(id="facebook-profile" type="url" name="facebookProfile" placeholder="Url to your facebook profile")
+        br
+        label(for="twitter-profile") Twitter Profile
+        input(id="twitter-profile" type="url" name="twitterProfile" placeholder="Url to your twitter profile")
+        br
+        label(for="linkedIn-profile") LinkedIn Profile
+        input(id="linkedIn-profile" type="url" name="linkedInProfile" placeholder="Url to your linkedIn profile")
+        br
+        label(for="google-profile") Google Profile
+        input(id="google-profile" type="url" name="googleProfile" placeholder="Url to your google+ profile")
+        br
+
+        input(type="submit" value="Submit")
