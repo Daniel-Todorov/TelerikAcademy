@@ -1,4 +1,4 @@
-Telerik-Academy
+Telerik Academy
 ===============
 Website:
 ------
@@ -6,7 +6,7 @@ http://academy.telerik.com
 
 Main languages and technologies:
 ------
-* C#, javascript, HTML, CSS,
+* C#, Javascript, HTML, CSS,
 * Visual Studio, WebStorm,
 * ADO.NET, Entity Framework, ASP WebForms, JQuery, Angular, NodeJS
 
